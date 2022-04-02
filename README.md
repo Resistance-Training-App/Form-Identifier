@@ -1,0 +1,7 @@
+# Form-Identifier
+
+This repository is used to test exercise analysis features before being implemented into the main repository 'Workout Planner'. These features can then be tested in isolation and not interfere with the development of the main app.
+
+This app contains two methods of creating motion to act as an input for EA feature development and testing. First, simulating the motion from pre-recorded CSV files created with the same app used to gather training data, ‘HemiPhysioData’. The other method was using the real-time motion from the Apple Watch much like the main Apple Watch app will do. A 2-minute recording session could be analysed as if it were real-time motion from the Apple Watch in a matter of seconds. This was achieved by splitting a motion CSV file into a sequence of buffers. This sequence could then be iterated through, independently processing each constructed buffer, simulating real motion but in a much faster manner.
+
+The second method, using motion data directly from the Apple Watch, firstly enabled me to figure out how motion data could be accessed from the Apple Watch. I created a class named ‘MotionManager’ to store incoming motion data which is accessed via an Apple framework ‘Core Motion’. This class will also store the results of EA features as well as control when motion needs to be captured. To help increase overall efficiency, motion is only captured when the user is currently on an exercise in the workout that has an exercise form classification model created for it.

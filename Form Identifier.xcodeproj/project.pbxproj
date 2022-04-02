@@ -1,0 +1,2021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C001FBF27AABA8600843EA6 /* DisplayMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FBE27AABA8600843EA6 /* DisplayMetric.swift */; };
+		4C001FC127AABF7C00843EA6 /* IsTurningPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FC027AABF7C00843EA6 /* IsTurningPoint.swift */; };
+		4C001FC227AAC18800843EA6 /* IsTurningPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FC027AABF7C00843EA6 /* IsTurningPoint.swift */; };
+		4C001FC427AACDED00843EA6 /* MotionTypeLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FC327AACDED00843EA6 /* MotionTypeLegend.swift */; };
+		4C001FC727AACEE600843EA6 /* WindowResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FC627AACEE600843EA6 /* WindowResultRow.swift */; };
+		4C032B7B27997ABF00AD43CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1089F32789CB680084E998 /* Assets.xcassets */; };
+		4C0760A627CBC9B300338372 /* LateralRaise-BadRange-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C07609C27CBC9B300338372 /* LateralRaise-BadRange-8.csv */; };
+		4C0760A827CBC9B300338372 /* LateralRaise-BadRange-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C07609D27CBC9B300338372 /* LateralRaise-BadRange-9.csv */; };
+		4C0760AA27CBC9B300338372 /* LateralRaise-BadRange-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C07609E27CBC9B300338372 /* LateralRaise-BadRange-4.csv */; };
+		4C0760AC27CBC9B300338372 /* LateralRaise-BadRange-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C07609F27CBC9B300338372 /* LateralRaise-BadRange-5.csv */; };
+		4C0760AE27CBC9B300338372 /* LateralRaise-BadRange-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A027CBC9B300338372 /* LateralRaise-BadRange-7.csv */; };
+		4C0760B027CBC9B300338372 /* LateralRaise-BadRange-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A127CBC9B300338372 /* LateralRaise-BadRange-6.csv */; };
+		4C0760B227CBC9B300338372 /* LateralRaise-BadRange-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A227CBC9B300338372 /* LateralRaise-BadRange-2.csv */; };
+		4C0760B427CBC9B300338372 /* LateralRaise-BadRange-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A327CBC9B300338372 /* LateralRaise-BadRange-3.csv */; };
+		4C0760B627CBC9B300338372 /* LateralRaise-BadRange-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A427CBC9B300338372 /* LateralRaise-BadRange-1.csv */; };
+		4C0760B827CBC9B300338372 /* LateralRaise-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C0760A527CBC9B300338372 /* LateralRaise-BadRange-0.csv */; };
+		4C1089F62789CB890084E998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1089F52789CB890084E998 /* Assets.xcassets */; };
+		4C200B3827AD904300D7448F /* BicepCurl-Test-Other-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C200B3327AD904300D7448F /* BicepCurl-Test-Other-0.csv */; };
+		4C200B3927AD904300D7448F /* BicepCurl-Test-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C200B3427AD904300D7448F /* BicepCurl-Test-BadRange-0.csv */; };
+		4C200B3A27AD904300D7448F /* BicepCurl-Test-RealWorld-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C200B3527AD904300D7448F /* BicepCurl-Test-RealWorld-0.csv */; };
+		4C200B3B27AD904300D7448F /* BicepCurl-Test-TooFast-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C200B3627AD904300D7448F /* BicepCurl-Test-TooFast-0.csv */; };
+		4C200B3C27AD904300D7448F /* BicepCurl-Test-Good-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C200B3727AD904300D7448F /* BicepCurl-Test-Good-0.csv */; };
+		4C2D262327A0206A001BFE49 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D262227A0206A001BFE49 /* LineGraph.swift */; };
+		4C2D262527A044EF001BFE49 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D262427A044EF001BFE49 /* Metrics.swift */; };
+		4C2D262927A089B0001BFE49 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D262827A089B0001BFE49 /* Graphs.swift */; };
+		4C320B4F27A580FC00AEF9FA /* MotionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69754027985448007FA1A7 /* MotionStruct.swift */; };
+		4C356BB427D20AA200D59C8D /* BicepCurl.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB327D20AA200D59C8D /* BicepCurl.mlmodel */; };
+		4C356BB527D20AA200D59C8D /* BicepCurl.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB327D20AA200D59C8D /* BicepCurl.mlmodel */; };
+		4C356BB727D20AB600D59C8D /* LateralRaise.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB627D20AB600D59C8D /* LateralRaise.mlmodel */; };
+		4C356BB827D20AB600D59C8D /* LateralRaise.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB627D20AB600D59C8D /* LateralRaise.mlmodel */; };
+		4C356BBA27D20ACB00D59C8D /* ShoulderPress.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB927D20ACB00D59C8D /* ShoulderPress.mlmodel */; };
+		4C356BBB27D20ACB00D59C8D /* ShoulderPress.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C356BB927D20ACB00D59C8D /* ShoulderPress.mlmodel */; };
+		4C35B81727CFD3F9007BCE8F /* CountPeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35B81627CFD3F9007BCE8F /* CountPeaks.swift */; };
+		4C35B81827CFD3F9007BCE8F /* CountPeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35B81627CFD3F9007BCE8F /* CountPeaks.swift */; };
+		4C3D235D27CFE40B00A3DC73 /* SigmaSwiftStatistics in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3D235C27CFE40B00A3DC73 /* SigmaSwiftStatistics */; };
+		4C3D235F27CFE4F100A3DC73 /* SigmaSwiftStatistics in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3D235E27CFE4F100A3DC73 /* SigmaSwiftStatistics */; };
+		4C3D236427CFE5C400A3DC73 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3D236327CFE5C400A3DC73 /* Algorithms */; };
+		4C3D237227CFF5F400A3DC73 /* ShoulderPress-BadRange-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236827CFF5F400A3DC73 /* ShoulderPress-BadRange-5.csv */; };
+		4C3D237327CFF5F400A3DC73 /* ShoulderPress-BadRange-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236927CFF5F400A3DC73 /* ShoulderPress-BadRange-6.csv */; };
+		4C3D237427CFF5F400A3DC73 /* ShoulderPress-BadRange-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236A27CFF5F400A3DC73 /* ShoulderPress-BadRange-7.csv */; };
+		4C3D237527CFF5F400A3DC73 /* ShoulderPress-BadRange-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236B27CFF5F400A3DC73 /* ShoulderPress-BadRange-9.csv */; };
+		4C3D237627CFF5F400A3DC73 /* ShoulderPress-BadRange-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236C27CFF5F400A3DC73 /* ShoulderPress-BadRange-1.csv */; };
+		4C3D237727CFF5F400A3DC73 /* ShoulderPress-BadRange-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236D27CFF5F400A3DC73 /* ShoulderPress-BadRange-2.csv */; };
+		4C3D237827CFF5F400A3DC73 /* ShoulderPress-BadRange-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236E27CFF5F400A3DC73 /* ShoulderPress-BadRange-3.csv */; };
+		4C3D237927CFF5F400A3DC73 /* ShoulderPress-BadRange-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D236F27CFF5F400A3DC73 /* ShoulderPress-BadRange-8.csv */; };
+		4C3D237A27CFF5F400A3DC73 /* ShoulderPress-BadRange-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237027CFF5F400A3DC73 /* ShoulderPress-BadRange-4.csv */; };
+		4C3D237B27CFF5F400A3DC73 /* ShoulderPress-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237127CFF5F400A3DC73 /* ShoulderPress-BadRange-0.csv */; };
+		4C3D238627CFF60000A3DC73 /* ShoulderPress-Good-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237C27CFF60000A3DC73 /* ShoulderPress-Good-5.csv */; };
+		4C3D238727CFF60000A3DC73 /* ShoulderPress-Good-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237D27CFF60000A3DC73 /* ShoulderPress-Good-1.csv */; };
+		4C3D238827CFF60000A3DC73 /* ShoulderPress-Good-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237E27CFF60000A3DC73 /* ShoulderPress-Good-7.csv */; };
+		4C3D238927CFF60000A3DC73 /* ShoulderPress-Good-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D237F27CFF60000A3DC73 /* ShoulderPress-Good-8.csv */; };
+		4C3D238A27CFF60000A3DC73 /* ShoulderPress-Good-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238027CFF60000A3DC73 /* ShoulderPress-Good-2.csv */; };
+		4C3D238B27CFF60000A3DC73 /* ShoulderPress-Good-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238127CFF60000A3DC73 /* ShoulderPress-Good-0.csv */; };
+		4C3D238C27CFF60000A3DC73 /* ShoulderPress-Good-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238227CFF60000A3DC73 /* ShoulderPress-Good-6.csv */; };
+		4C3D238D27CFF60000A3DC73 /* ShoulderPress-Good-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238327CFF60000A3DC73 /* ShoulderPress-Good-9.csv */; };
+		4C3D238E27CFF60000A3DC73 /* ShoulderPress-Good-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238427CFF60000A3DC73 /* ShoulderPress-Good-3.csv */; };
+		4C3D238F27CFF60000A3DC73 /* ShoulderPress-Good-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D238527CFF60000A3DC73 /* ShoulderPress-Good-4.csv */; };
+		4C3D239A27CFF61300A3DC73 /* ShoulderPress-LegMomentum-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239027CFF61300A3DC73 /* ShoulderPress-LegMomentum-1.csv */; };
+		4C3D239B27CFF61300A3DC73 /* ShoulderPress-LegMomentum-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239127CFF61300A3DC73 /* ShoulderPress-LegMomentum-5.csv */; };
+		4C3D239C27CFF61300A3DC73 /* ShoulderPress-LegMomentum-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239227CFF61300A3DC73 /* ShoulderPress-LegMomentum-4.csv */; };
+		4C3D239D27CFF61300A3DC73 /* ShoulderPress-LegMomentum-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239327CFF61300A3DC73 /* ShoulderPress-LegMomentum-3.csv */; };
+		4C3D239E27CFF61300A3DC73 /* ShoulderPress-LegMomentum-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239427CFF61300A3DC73 /* ShoulderPress-LegMomentum-6.csv */; };
+		4C3D239F27CFF61300A3DC73 /* ShoulderPress-LegMomentum-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239527CFF61300A3DC73 /* ShoulderPress-LegMomentum-0.csv */; };
+		4C3D23A027CFF61300A3DC73 /* ShoulderPress-LegMomentum-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239627CFF61300A3DC73 /* ShoulderPress-LegMomentum-8.csv */; };
+		4C3D23A127CFF61300A3DC73 /* ShoulderPress-LegMomentum-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239727CFF61300A3DC73 /* ShoulderPress-LegMomentum-9.csv */; };
+		4C3D23A227CFF61300A3DC73 /* ShoulderPress-LegMomentum-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239827CFF61300A3DC73 /* ShoulderPress-LegMomentum-7.csv */; };
+		4C3D23A327CFF61300A3DC73 /* ShoulderPress-LegMomentum-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D239927CFF61300A3DC73 /* ShoulderPress-LegMomentum-2.csv */; };
+		4C3D23A627D0015400A3DC73 /* Surge in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3D23A527D0015400A3DC73 /* Surge */; };
+		4C3D23A827D0016300A3DC73 /* Surge in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3D23A727D0016300A3DC73 /* Surge */; };
+		4C3D23AA27D0081300A3DC73 /* CalcStatisticFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D23A927D0081300A3DC73 /* CalcStatisticFeatures.swift */; };
+		4C3D23AB27D0081300A3DC73 /* CalcStatisticFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D23A927D0081300A3DC73 /* CalcStatisticFeatures.swift */; };
+		4C46CBED2797027D0034094C /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46CBEC2797027D0034094C /* ExerciseList.swift */; };
+		4C46CBEF279706670034094C /* MotionTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46CBEE279706670034094C /* MotionTypeList.swift */; };
+		4C46CBF3279707310034094C /* LiveMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46CBF2279707310034094C /* LiveMotion.swift */; };
+		4C46CBF8279708B10034094C /* CSVList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46CBF7279708B10034094C /* CSVList.swift */; };
+		4C46CBFD27970AAC0034094C /* SimulateMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46CBFC27970AAC0034094C /* SimulateMotion.swift */; };
+		4C484A9427B528C6003F6063 /* LateralRaise-TooFast-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7527B528C6003F6063 /* LateralRaise-TooFast-4.csv */; };
+		4C484A9527B528C6003F6063 /* LateralRaise-TooFast-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7627B528C6003F6063 /* LateralRaise-TooFast-5.csv */; };
+		4C484A9627B528C6003F6063 /* LateralRaise-TooFast-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7727B528C6003F6063 /* LateralRaise-TooFast-7.csv */; };
+		4C484A9727B528C6003F6063 /* LateralRaise-TooFast-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7827B528C6003F6063 /* LateralRaise-TooFast-6.csv */; };
+		4C484A9827B528C6003F6063 /* LateralRaise-TooFast-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7927B528C6003F6063 /* LateralRaise-TooFast-2.csv */; };
+		4C484A9927B528C6003F6063 /* LateralRaise-TooFast-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7A27B528C6003F6063 /* LateralRaise-TooFast-3.csv */; };
+		4C484A9A27B528C6003F6063 /* LateralRaise-TooFast-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7B27B528C6003F6063 /* LateralRaise-TooFast-1.csv */; };
+		4C484A9B27B528C6003F6063 /* LateralRaise-TooFast-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7C27B528C6003F6063 /* LateralRaise-TooFast-0.csv */; };
+		4C484A9C27B528C6003F6063 /* LateralRaise-TooFast-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7D27B528C6003F6063 /* LateralRaise-TooFast-8.csv */; };
+		4C484A9D27B528C6003F6063 /* LateralRaise-TooFast-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A7E27B528C6003F6063 /* LateralRaise-TooFast-9.csv */; };
+		4C484A9E27B528C6003F6063 /* LateralRaise-Good-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8027B528C6003F6063 /* LateralRaise-Good-6.csv */; };
+		4C484A9F27B528C6003F6063 /* LateralRaise-Good-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8127B528C6003F6063 /* LateralRaise-Good-7.csv */; };
+		4C484AA027B528C6003F6063 /* LateralRaise-Good-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8227B528C6003F6063 /* LateralRaise-Good-5.csv */; };
+		4C484AA127B528C6003F6063 /* LateralRaise-Good-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8327B528C6003F6063 /* LateralRaise-Good-4.csv */; };
+		4C484AA227B528C6003F6063 /* LateralRaise-Good-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8427B528C6003F6063 /* LateralRaise-Good-0.csv */; };
+		4C484AA327B528C6003F6063 /* LateralRaise-Good-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8527B528C6003F6063 /* LateralRaise-Good-1.csv */; };
+		4C484AA427B528C6003F6063 /* LateralRaise-Good-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8627B528C6003F6063 /* LateralRaise-Good-3.csv */; };
+		4C484AA527B528C6003F6063 /* LateralRaise-Good-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8727B528C6003F6063 /* LateralRaise-Good-2.csv */; };
+		4C484AA627B528C6003F6063 /* LateralRaise-Good-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8827B528C6003F6063 /* LateralRaise-Good-9.csv */; };
+		4C484AA727B528C6003F6063 /* LateralRaise-Good-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C484A8927B528C6003F6063 /* LateralRaise-Good-8.csv */; };
+		4C484AAA27B5299C003F6063 /* LateralRaiseFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C484AA927B5299C003F6063 /* LateralRaiseFeatureExtraction.swift */; };
+		4C484AAB27B5299C003F6063 /* LateralRaiseFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C484AA927B5299C003F6063 /* LateralRaiseFeatureExtraction.swift */; };
+		4C484AAD27B529E2003F6063 /* LateralRaiseFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C484AAC27B529E2003F6063 /* LateralRaiseFeatures.swift */; };
+		4C484AAE27B529E2003F6063 /* LateralRaiseFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C484AAC27B529E2003F6063 /* LateralRaiseFeatures.swift */; };
+		4C563BC3277E03190036F3D3 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C563BC2277E03190036F3D3 /* MotionManager.swift */; };
+		4C563BC8277E03790036F3D3 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4C563BC7277E03790036F3D3 /* Algorithms */; };
+		4C563BCB277E03A90036F3D3 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 4C563BCA277E03A90036F3D3 /* Charts */; };
+		4C69754127985448007FA1A7 /* MotionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69754027985448007FA1A7 /* MotionStruct.swift */; };
+		4C6CDCC827A1A851005A5884 /* ReadCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCC727A1A851005A5884 /* ReadCSV.swift */; };
+		4C6CDCCB27A1A8B7005A5884 /* CreateBuffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCCA27A1A8B7005A5884 /* CreateBuffers.swift */; };
+		4C6CDCD127A1A939005A5884 /* GetRangeOfMotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD027A1A939005A5884 /* GetRangeOfMotions.swift */; };
+		4C6CDCD327A1A968005A5884 /* ReadMotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD227A1A968005A5884 /* ReadMotionData.swift */; };
+		4C6CDCD727A1B865005A5884 /* MovingAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD627A1B865005A5884 /* MovingAverage.swift */; };
+		4C6CDCD827A1B9C0005A5884 /* MovingAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD627A1B865005A5884 /* MovingAverage.swift */; };
+		4C71C17127AC5C9D0077113B /* BicepCurlFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C17027AC5C9D0077113B /* BicepCurlFeatureExtraction.swift */; };
+		4C71C17327AC5CEC0077113B /* BicepCurlFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C17227AC5CEC0077113B /* BicepCurlFeatures.swift */; };
+		4C71C17827AC61520077113B /* BicepCurlFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C17227AC5CEC0077113B /* BicepCurlFeatures.swift */; };
+		4C71C17927AC615B0077113B /* BicepCurlFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C17027AC5C9D0077113B /* BicepCurlFeatureExtraction.swift */; };
+		4C71C17A27AC6D810077113B /* DisplayMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C001FBE27AABA8600843EA6 /* DisplayMetric.swift */; };
+		4C75277B27C0F65300A36E02 /* GetRangeOfMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75277A27C0F65300A36E02 /* GetRangeOfMotion.swift */; };
+		4C75277C27C0F65300A36E02 /* GetRangeOfMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75277A27C0F65300A36E02 /* GetRangeOfMotion.swift */; };
+		4C8D697E2768A28C007F1E05 /* NumbersTimelineSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D697C2768A28C007F1E05 /* NumbersTimelineSchedule.swift */; };
+		4C8D69812768A55E007F1E05 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D697F2768A55E007F1E05 /* WorkoutManager.swift */; };
+		4C8D69852768A6C2007F1E05 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8D69842768A6C2007F1E05 /* HealthKit.framework */; };
+		4CA8674D27DBB3A50068C2D3 /* StatisticFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8674C27DBB3A50068C2D3 /* StatisticFeatures.swift */; };
+		4CA8674E27DBB3A50068C2D3 /* StatisticFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8674C27DBB3A50068C2D3 /* StatisticFeatures.swift */; };
+		4CA8675127DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8675027DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift */; };
+		4CA8675227DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8675027DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift */; };
+		4CA8675727DBB8D10068C2D3 /* Exercise.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8675627DBB8D10068C2D3 /* Exercise.mlmodel */; };
+		4CA8675827DBB8D10068C2D3 /* Exercise.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8675627DBB8D10068C2D3 /* Exercise.mlmodel */; };
+		4CAA2D1127AEB2C500E40F30 /* ProcessBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2D1027AEB2C500E40F30 /* ProcessBuffer.swift */; };
+		4CAA2D1827AEB51800E40F30 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2D1727AEB51800E40F30 /* MotionManager.swift */; };
+		4CAA2D1A27AECDB000E40F30 /* ProcessBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2D1027AEB2C500E40F30 /* ProcessBuffer.swift */; };
+		4CAA2D1C27AED3B700E40F30 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA2D1B27AED3B700E40F30 /* ResetButton.swift */; };
+		4CAC4CB02768E177002076A7 /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4CAF2768E177002076A7 /* SessionDelegator.swift */; };
+		4CAC4CB12768E177002076A7 /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4CAF2768E177002076A7 /* SessionDelegator.swift */; };
+		4CAC4CB32768E1DA002076A7 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4CB22768E1DA002076A7 /* SharedData.swift */; };
+		4CAC4CB42768E1DA002076A7 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4CB22768E1DA002076A7 /* SharedData.swift */; };
+		4CAC4CBC2768E428002076A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC4CBB2768E428002076A7 /* ContentView.swift */; };
+		4CB4AEF627CA65D100FFF2E7 /* SelectRepCountingAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4AEF527CA65D100FFF2E7 /* SelectRepCountingAxis.swift */; };
+		4CB4AEF727CA65D100FFF2E7 /* SelectRepCountingAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4AEF527CA65D100FFF2E7 /* SelectRepCountingAxis.swift */; };
+		4CB9ADC327AAE09500CAE9E4 /* RepResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9ADC227AAE09500CAE9E4 /* RepResultRow.swift */; };
+		4CB9ADC527AB0EF800CAE9E4 /* MakePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9ADC427AB0EF800CAE9E4 /* MakePrediction.swift */; };
+		4CB9ADC627AB0EF800CAE9E4 /* MakePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9ADC427AB0EF800CAE9E4 /* MakePrediction.swift */; };
+		4CB9ADCB27AB11D100CAE9E4 /* ReadMotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD227A1A968005A5884 /* ReadMotionData.swift */; };
+		4CB9ADCC27AB11D100CAE9E4 /* CreateBuffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCCA27A1A8B7005A5884 /* CreateBuffers.swift */; };
+		4CB9ADCD27AB11D100CAE9E4 /* GetRangeOfMotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCD027A1A939005A5884 /* GetRangeOfMotions.swift */; };
+		4CB9ADCE27AB11D100CAE9E4 /* GetRollAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEE427A9ADE40002581E /* GetRollAngle.swift */; };
+		4CB9ADCF27AB123F00CAE9E4 /* ReadCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CDCC727A1A851005A5884 /* ReadCSV.swift */; };
+		4CB9ADD427AB15A700CAE9E4 /* Simulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9ADD327AB15A700CAE9E4 /* Simulate.swift */; };
+		4CC0BBC327A6F2D000A95843 /* CollectionExistCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0BBC227A6F2D000A95843 /* CollectionExistCheck.swift */; };
+		4CC0BBC427A6F2D000A95843 /* CollectionExistCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0BBC227A6F2D000A95843 /* CollectionExistCheck.swift */; };
+		4CC0BBC627A6FEF900A95843 /* PredictionDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0BBC527A6FEF900A95843 /* PredictionDistribution.swift */; };
+		4CC0BBC827A7000B00A95843 /* FindFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0BBC727A7000B00A95843 /* FindFiles.swift */; };
+		4CCDD753270A048D00CE7708 /* Form_IdentifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDD752270A048D00CE7708 /* Form_IdentifierApp.swift */; };
+		4CCDD75E270A048E00CE7708 /* Form Identifier WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4CCDD75D270A048E00CE7708 /* Form Identifier WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CCDD769270A048E00CE7708 /* Form Identifier WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4CCDD768270A048E00CE7708 /* Form Identifier WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CCDD76E270A048E00CE7708 /* Form_IdentifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDD76D270A048E00CE7708 /* Form_IdentifierApp.swift */; };
+		4CCDD770270A048E00CE7708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDD76F270A048E00CE7708 /* ContentView.swift */; };
+		4CCDD778270A048F00CE7708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDD777270A048F00CE7708 /* Assets.xcassets */; };
+		4CD8DE0927ABE2FD00CEB27C /* AvgRepTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8DE0827ABE2FD00CEB27C /* AvgRepTime.swift */; };
+		4CD8DE0B27ABE42A00CEB27C /* AvgRangeOfMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8DE0A27ABE42A00CEB27C /* AvgRangeOfMotion.swift */; };
+		4CD8DE0E27AC075E00CEB27C /* FileInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8DE0D27AC075E00CEB27C /* FileInformation.swift */; };
+		4CD8DE1027AC07D500CEB27C /* RepInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8DE0F27AC07D500CEB27C /* RepInformation.swift */; };
+		4CD8DE1327AC10BA00CEB27C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8DE1227AC10BA00CEB27C /* Settings.swift */; };
+		4CD951F92768B28300A93C63 /* StartStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD951F72768B28300A93C63 /* StartStopButton.swift */; };
+		4CE0AE2C27A9748D0002581E /* Squat-BadRange-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB127A9748D0002581E /* Squat-BadRange-1.csv */; };
+		4CE0AE2E27A9748D0002581E /* Squat-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB227A9748D0002581E /* Squat-BadRange-0.csv */; };
+		4CE0AE3027A9748D0002581E /* Squat-BadRange-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB327A9748D0002581E /* Squat-BadRange-2.csv */; };
+		4CE0AE3227A9748D0002581E /* Squat-TooFast-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB527A9748D0002581E /* Squat-TooFast-2.csv */; };
+		4CE0AE3427A9748D0002581E /* Squat-TooFast-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB627A9748D0002581E /* Squat-TooFast-0.csv */; };
+		4CE0AE3627A9748D0002581E /* Squat-TooFast-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB727A9748D0002581E /* Squat-TooFast-1.csv */; };
+		4CE0AE3827A9748D0002581E /* Squat-Good-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADB927A9748D0002581E /* Squat-Good-0.csv */; };
+		4CE0AE3A27A9748D0002581E /* Other-Moving-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADBD27A9748D0002581E /* Other-Moving-3.csv */; };
+		4CE0AE3C27A9748D0002581E /* Other-Moving-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADBE27A9748D0002581E /* Other-Moving-2.csv */; };
+		4CE0AE3E27A9748D0002581E /* Other-Moving-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADBF27A9748D0002581E /* Other-Moving-0.csv */; };
+		4CE0AE4027A9748D0002581E /* Other-Moving-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADC027A9748D0002581E /* Other-Moving-1.csv */; };
+		4CE0AE5627A9748D0002581E /* Other-Still-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADCD27A9748D0002581E /* Other-Still-9.csv */; };
+		4CE0AE5827A9748D0002581E /* Other-Still-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADCE27A9748D0002581E /* Other-Still-8.csv */; };
+		4CE0AE5A27A9748D0002581E /* Other-Still-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADCF27A9748D0002581E /* Other-Still-3.csv */; };
+		4CE0AE5C27A9748D0002581E /* Other-Still-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD027A9748D0002581E /* Other-Still-2.csv */; };
+		4CE0AE5E27A9748D0002581E /* Other-Still-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD127A9748D0002581E /* Other-Still-0.csv */; };
+		4CE0AE6027A9748D0002581E /* Other-Still-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD227A9748D0002581E /* Other-Still-1.csv */; };
+		4CE0AE6227A9748D0002581E /* Other-Still-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD327A9748D0002581E /* Other-Still-5.csv */; };
+		4CE0AE6427A9748D0002581E /* Other-Still-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD427A9748D0002581E /* Other-Still-4.csv */; };
+		4CE0AE6627A9748D0002581E /* Other-Still-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD527A9748D0002581E /* Other-Still-6.csv */; };
+		4CE0AE6827A9748D0002581E /* Other-Still-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADD627A9748D0002581E /* Other-Still-7.csv */; };
+		4CE0AE6A27A9748D0002581E /* BenchPress-BadRange-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADE927A9748D0002581E /* BenchPress-BadRange-2.csv */; };
+		4CE0AE6C27A9748D0002581E /* BenchPress-BadRange-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADEA27A9748D0002581E /* BenchPress-BadRange-3.csv */; };
+		4CE0AE6E27A9748D0002581E /* BenchPress-BadRange-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADEB27A9748D0002581E /* BenchPress-BadRange-1.csv */; };
+		4CE0AE7027A9748D0002581E /* BenchPress-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADEC27A9748D0002581E /* BenchPress-BadRange-0.csv */; };
+		4CE0AE7227A9748D0002581E /* BenchPress-BadRange-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADED27A9748D0002581E /* BenchPress-BadRange-4.csv */; };
+		4CE0AE7427A9748D0002581E /* BenchPress-BadRange-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADEE27A9748D0002581E /* BenchPress-BadRange-5.csv */; };
+		4CE0AE7627A9748D0002581E /* BenchPress-BadRange-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADEF27A9748D0002581E /* BenchPress-BadRange-7.csv */; };
+		4CE0AE7827A9748D0002581E /* BenchPress-BadRange-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF027A9748D0002581E /* BenchPress-BadRange-6.csv */; };
+		4CE0AE7A27A9748D0002581E /* BenchPress-BadRange-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF127A9748D0002581E /* BenchPress-BadRange-8.csv */; };
+		4CE0AE7C27A9748D0002581E /* BenchPress-BadRange-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF227A9748D0002581E /* BenchPress-BadRange-9.csv */; };
+		4CE0AE7E27A9748D0002581E /* BenchPress-TooFast-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF427A9748D0002581E /* BenchPress-TooFast-3.csv */; };
+		4CE0AE8027A9748D0002581E /* BenchPress-TooFast-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF527A9748D0002581E /* BenchPress-TooFast-2.csv */; };
+		4CE0AE8227A9748D0002581E /* BenchPress-TooFast-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF627A9748D0002581E /* BenchPress-TooFast-0.csv */; };
+		4CE0AE8427A9748D0002581E /* BenchPress-TooFast-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF727A9748D0002581E /* BenchPress-TooFast-1.csv */; };
+		4CE0AE8627A9748D0002581E /* BenchPress-TooFast-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF827A9748D0002581E /* BenchPress-TooFast-5.csv */; };
+		4CE0AE8827A9748D0002581E /* BenchPress-TooFast-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADF927A9748D0002581E /* BenchPress-TooFast-4.csv */; };
+		4CE0AE8A27A9748D0002581E /* BenchPress-TooFast-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADFA27A9748D0002581E /* BenchPress-TooFast-6.csv */; };
+		4CE0AE8C27A9748D0002581E /* BenchPress-TooFast-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADFB27A9748D0002581E /* BenchPress-TooFast-7.csv */; };
+		4CE0AE8E27A9748D0002581E /* BenchPress-TooFast-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADFC27A9748D0002581E /* BenchPress-TooFast-9.csv */; };
+		4CE0AE9027A9748D0002581E /* BenchPress-TooFast-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0ADFD27A9748D0002581E /* BenchPress-TooFast-8.csv */; };
+		4CE0AEA227A9748D0002581E /* BicepCurl-BadRange-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE0C27A9748D0002581E /* BicepCurl-BadRange-9.csv */; };
+		4CE0AEA427A9748D0002581E /* BicepCurl-BadRange-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE0D27A9748D0002581E /* BicepCurl-BadRange-8.csv */; };
+		4CE0AEA627A9748D0002581E /* BicepCurl-BadRange-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE0E27A9748D0002581E /* BicepCurl-BadRange-6.csv */; };
+		4CE0AEA827A9748D0002581E /* BicepCurl-BadRange-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE0F27A9748D0002581E /* BicepCurl-BadRange-7.csv */; };
+		4CE0AEAA27A9748D0002581E /* BicepCurl-BadRange-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1027A9748D0002581E /* BicepCurl-BadRange-5.csv */; };
+		4CE0AEAC27A9748D0002581E /* BicepCurl-BadRange-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1127A9748D0002581E /* BicepCurl-BadRange-4.csv */; };
+		4CE0AEAE27A9748D0002581E /* BicepCurl-BadRange-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1227A9748D0002581E /* BicepCurl-BadRange-0.csv */; };
+		4CE0AEB027A9748D0002581E /* BicepCurl-BadRange-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1327A9748D0002581E /* BicepCurl-BadRange-1.csv */; };
+		4CE0AEB227A9748D0002581E /* BicepCurl-BadRange-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1427A9748D0002581E /* BicepCurl-BadRange-3.csv */; };
+		4CE0AEB427A9748D0002581E /* BicepCurl-BadRange-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1527A9748D0002581E /* BicepCurl-BadRange-2.csv */; };
+		4CE0AEB627A9748D0002581E /* BicepCurl-TooFast-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1727A9748D0002581E /* BicepCurl-TooFast-2.csv */; };
+		4CE0AEB827A9748D0002581E /* BicepCurl-TooFast-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1827A9748D0002581E /* BicepCurl-TooFast-3.csv */; };
+		4CE0AEBA27A9748D0002581E /* BicepCurl-TooFast-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1927A9748D0002581E /* BicepCurl-TooFast-1.csv */; };
+		4CE0AEBC27A9748D0002581E /* BicepCurl-TooFast-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1A27A9748D0002581E /* BicepCurl-TooFast-0.csv */; };
+		4CE0AEBE27A9748D0002581E /* BicepCurl-TooFast-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1B27A9748D0002581E /* BicepCurl-TooFast-4.csv */; };
+		4CE0AEC027A9748D0002581E /* BicepCurl-TooFast-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1C27A9748D0002581E /* BicepCurl-TooFast-5.csv */; };
+		4CE0AEC227A9748D0002581E /* BicepCurl-TooFast-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1D27A9748D0002581E /* BicepCurl-TooFast-7.csv */; };
+		4CE0AEC427A9748D0002581E /* BicepCurl-TooFast-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1E27A9748D0002581E /* BicepCurl-TooFast-6.csv */; };
+		4CE0AEC627A9748D0002581E /* BicepCurl-TooFast-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE1F27A9748D0002581E /* BicepCurl-TooFast-8.csv */; };
+		4CE0AEC827A9748D0002581E /* BicepCurl-TooFast-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2027A9748D0002581E /* BicepCurl-TooFast-9.csv */; };
+		4CE0AECA27A9748D0002581E /* BicepCurl-Good-8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2227A9748D0002581E /* BicepCurl-Good-8.csv */; };
+		4CE0AECC27A9748D0002581E /* BicepCurl-Good-9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2327A9748D0002581E /* BicepCurl-Good-9.csv */; };
+		4CE0AECE27A9748D0002581E /* BicepCurl-Good-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2427A9748D0002581E /* BicepCurl-Good-1.csv */; };
+		4CE0AED027A9748D0002581E /* BicepCurl-Good-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2527A9748D0002581E /* BicepCurl-Good-0.csv */; };
+		4CE0AED227A9748D0002581E /* BicepCurl-Good-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2627A9748D0002581E /* BicepCurl-Good-2.csv */; };
+		4CE0AED427A9748D0002581E /* BicepCurl-Good-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2727A9748D0002581E /* BicepCurl-Good-3.csv */; };
+		4CE0AED627A9748D0002581E /* BicepCurl-Good-7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2827A9748D0002581E /* BicepCurl-Good-7.csv */; };
+		4CE0AED827A9748D0002581E /* BicepCurl-Good-6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2927A9748D0002581E /* BicepCurl-Good-6.csv */; };
+		4CE0AEDA27A9748D0002581E /* BicepCurl-Good-4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2A27A9748D0002581E /* BicepCurl-Good-4.csv */; };
+		4CE0AEDC27A9748D0002581E /* BicepCurl-Good-5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0AE2B27A9748D0002581E /* BicepCurl-Good-5.csv */; };
+		4CE0AEDF27A986D00002581E /* AverageDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEDE27A986D00002581E /* AverageDeviation.swift */; };
+		4CE0AEE027A986D00002581E /* AverageDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEDE27A986D00002581E /* AverageDeviation.swift */; };
+		4CE0AEE227A99B250002581E /* RadToDeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEE127A99B250002581E /* RadToDeg.swift */; };
+		4CE0AEE327A99B250002581E /* RadToDeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEE127A99B250002581E /* RadToDeg.swift */; };
+		4CE0AEE527A9ADE40002581E /* GetRollAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0AEE427A9ADE40002581E /* GetRollAngle.swift */; };
+		4CE36E202795C408001C741E /* RepFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C563BC4277E03400036F3D3 /* RepFinder.swift */; };
+		4CE36E872795C6EC001C741E /* RepFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C563BC4277E03400036F3D3 /* RepFinder.swift */; };
+		4CE36E892795F294001C741E /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE36E882795F294001C741E /* ModelManager.swift */; };
+		4CE36E8A2795F294001C741E /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE36E882795F294001C741E /* ModelManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCDD75F270A048E00CE7708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCDD747270A048D00CE7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCDD75C270A048E00CE7708;
+			remoteInfo = "Form Identifier WatchKit App";
+		};
+		4CCDD76A270A048E00CE7708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCDD747270A048D00CE7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCDD767270A048E00CE7708;
+			remoteInfo = "Form Identifier WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CA4A77B2798A7CF00C6A540 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD783270A048F00CE7708 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CCDD769270A048E00CE7708 /* Form Identifier WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD787270A048F00CE7708 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4CCDD75E270A048E00CE7708 /* Form Identifier WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C001FBE27AABA8600843EA6 /* DisplayMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMetric.swift; sourceTree = "<group>"; };
+		4C001FC027AABF7C00843EA6 /* IsTurningPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTurningPoint.swift; sourceTree = "<group>"; };
+		4C001FC327AACDED00843EA6 /* MotionTypeLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTypeLegend.swift; sourceTree = "<group>"; };
+		4C001FC627AACEE600843EA6 /* WindowResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowResultRow.swift; sourceTree = "<group>"; };
+		4C07609C27CBC9B300338372 /* LateralRaise-BadRange-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-8.csv"; sourceTree = "<group>"; };
+		4C07609D27CBC9B300338372 /* LateralRaise-BadRange-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-9.csv"; sourceTree = "<group>"; };
+		4C07609E27CBC9B300338372 /* LateralRaise-BadRange-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-4.csv"; sourceTree = "<group>"; };
+		4C07609F27CBC9B300338372 /* LateralRaise-BadRange-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-5.csv"; sourceTree = "<group>"; };
+		4C0760A027CBC9B300338372 /* LateralRaise-BadRange-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-7.csv"; sourceTree = "<group>"; };
+		4C0760A127CBC9B300338372 /* LateralRaise-BadRange-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-6.csv"; sourceTree = "<group>"; };
+		4C0760A227CBC9B300338372 /* LateralRaise-BadRange-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-2.csv"; sourceTree = "<group>"; };
+		4C0760A327CBC9B300338372 /* LateralRaise-BadRange-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-3.csv"; sourceTree = "<group>"; };
+		4C0760A427CBC9B300338372 /* LateralRaise-BadRange-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-1.csv"; sourceTree = "<group>"; };
+		4C0760A527CBC9B300338372 /* LateralRaise-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-BadRange-0.csv"; sourceTree = "<group>"; };
+		4C1089F32789CB680084E998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1089F52789CB890084E998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C11AB1D277E056300C65175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C200B3327AD904300D7448F /* BicepCurl-Test-Other-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Test-Other-0.csv"; sourceTree = "<group>"; };
+		4C200B3427AD904300D7448F /* BicepCurl-Test-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Test-BadRange-0.csv"; sourceTree = "<group>"; };
+		4C200B3527AD904300D7448F /* BicepCurl-Test-RealWorld-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Test-RealWorld-0.csv"; sourceTree = "<group>"; };
+		4C200B3627AD904300D7448F /* BicepCurl-Test-TooFast-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Test-TooFast-0.csv"; sourceTree = "<group>"; };
+		4C200B3727AD904300D7448F /* BicepCurl-Test-Good-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Test-Good-0.csv"; sourceTree = "<group>"; };
+		4C2D262227A0206A001BFE49 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		4C2D262427A044EF001BFE49 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		4C2D262827A089B0001BFE49 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		4C356BB327D20AA200D59C8D /* BicepCurl.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BicepCurl.mlmodel; sourceTree = "<group>"; };
+		4C356BB627D20AB600D59C8D /* LateralRaise.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LateralRaise.mlmodel; sourceTree = "<group>"; };
+		4C356BB927D20ACB00D59C8D /* ShoulderPress.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ShoulderPress.mlmodel; sourceTree = "<group>"; };
+		4C35B81627CFD3F9007BCE8F /* CountPeaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPeaks.swift; sourceTree = "<group>"; };
+		4C3D236827CFF5F400A3DC73 /* ShoulderPress-BadRange-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-5.csv"; sourceTree = "<group>"; };
+		4C3D236927CFF5F400A3DC73 /* ShoulderPress-BadRange-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-6.csv"; sourceTree = "<group>"; };
+		4C3D236A27CFF5F400A3DC73 /* ShoulderPress-BadRange-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-7.csv"; sourceTree = "<group>"; };
+		4C3D236B27CFF5F400A3DC73 /* ShoulderPress-BadRange-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-9.csv"; sourceTree = "<group>"; };
+		4C3D236C27CFF5F400A3DC73 /* ShoulderPress-BadRange-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-1.csv"; sourceTree = "<group>"; };
+		4C3D236D27CFF5F400A3DC73 /* ShoulderPress-BadRange-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-2.csv"; sourceTree = "<group>"; };
+		4C3D236E27CFF5F400A3DC73 /* ShoulderPress-BadRange-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-3.csv"; sourceTree = "<group>"; };
+		4C3D236F27CFF5F400A3DC73 /* ShoulderPress-BadRange-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-8.csv"; sourceTree = "<group>"; };
+		4C3D237027CFF5F400A3DC73 /* ShoulderPress-BadRange-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-4.csv"; sourceTree = "<group>"; };
+		4C3D237127CFF5F400A3DC73 /* ShoulderPress-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-BadRange-0.csv"; sourceTree = "<group>"; };
+		4C3D237C27CFF60000A3DC73 /* ShoulderPress-Good-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-5.csv"; sourceTree = "<group>"; };
+		4C3D237D27CFF60000A3DC73 /* ShoulderPress-Good-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-1.csv"; sourceTree = "<group>"; };
+		4C3D237E27CFF60000A3DC73 /* ShoulderPress-Good-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-7.csv"; sourceTree = "<group>"; };
+		4C3D237F27CFF60000A3DC73 /* ShoulderPress-Good-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-8.csv"; sourceTree = "<group>"; };
+		4C3D238027CFF60000A3DC73 /* ShoulderPress-Good-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-2.csv"; sourceTree = "<group>"; };
+		4C3D238127CFF60000A3DC73 /* ShoulderPress-Good-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-0.csv"; sourceTree = "<group>"; };
+		4C3D238227CFF60000A3DC73 /* ShoulderPress-Good-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-6.csv"; sourceTree = "<group>"; };
+		4C3D238327CFF60000A3DC73 /* ShoulderPress-Good-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-9.csv"; sourceTree = "<group>"; };
+		4C3D238427CFF60000A3DC73 /* ShoulderPress-Good-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-3.csv"; sourceTree = "<group>"; };
+		4C3D238527CFF60000A3DC73 /* ShoulderPress-Good-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-Good-4.csv"; sourceTree = "<group>"; };
+		4C3D239027CFF61300A3DC73 /* ShoulderPress-LegMomentum-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-1.csv"; sourceTree = "<group>"; };
+		4C3D239127CFF61300A3DC73 /* ShoulderPress-LegMomentum-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-5.csv"; sourceTree = "<group>"; };
+		4C3D239227CFF61300A3DC73 /* ShoulderPress-LegMomentum-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-4.csv"; sourceTree = "<group>"; };
+		4C3D239327CFF61300A3DC73 /* ShoulderPress-LegMomentum-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-3.csv"; sourceTree = "<group>"; };
+		4C3D239427CFF61300A3DC73 /* ShoulderPress-LegMomentum-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-6.csv"; sourceTree = "<group>"; };
+		4C3D239527CFF61300A3DC73 /* ShoulderPress-LegMomentum-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-0.csv"; sourceTree = "<group>"; };
+		4C3D239627CFF61300A3DC73 /* ShoulderPress-LegMomentum-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-8.csv"; sourceTree = "<group>"; };
+		4C3D239727CFF61300A3DC73 /* ShoulderPress-LegMomentum-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-9.csv"; sourceTree = "<group>"; };
+		4C3D239827CFF61300A3DC73 /* ShoulderPress-LegMomentum-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-7.csv"; sourceTree = "<group>"; };
+		4C3D239927CFF61300A3DC73 /* ShoulderPress-LegMomentum-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShoulderPress-LegMomentum-2.csv"; sourceTree = "<group>"; };
+		4C3D23A927D0081300A3DC73 /* CalcStatisticFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcStatisticFeatures.swift; sourceTree = "<group>"; };
+		4C46CBEC2797027D0034094C /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
+		4C46CBEE279706670034094C /* MotionTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTypeList.swift; sourceTree = "<group>"; };
+		4C46CBF2279707310034094C /* LiveMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMotion.swift; sourceTree = "<group>"; };
+		4C46CBF7279708B10034094C /* CSVList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVList.swift; sourceTree = "<group>"; };
+		4C46CBFC27970AAC0034094C /* SimulateMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulateMotion.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4C484A7527B528C6003F6063 /* LateralRaise-TooFast-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-4.csv"; sourceTree = "<group>"; };
+		4C484A7627B528C6003F6063 /* LateralRaise-TooFast-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-5.csv"; sourceTree = "<group>"; };
+		4C484A7727B528C6003F6063 /* LateralRaise-TooFast-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-7.csv"; sourceTree = "<group>"; };
+		4C484A7827B528C6003F6063 /* LateralRaise-TooFast-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-6.csv"; sourceTree = "<group>"; };
+		4C484A7927B528C6003F6063 /* LateralRaise-TooFast-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-2.csv"; sourceTree = "<group>"; };
+		4C484A7A27B528C6003F6063 /* LateralRaise-TooFast-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-3.csv"; sourceTree = "<group>"; };
+		4C484A7B27B528C6003F6063 /* LateralRaise-TooFast-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-1.csv"; sourceTree = "<group>"; };
+		4C484A7C27B528C6003F6063 /* LateralRaise-TooFast-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-0.csv"; sourceTree = "<group>"; };
+		4C484A7D27B528C6003F6063 /* LateralRaise-TooFast-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-8.csv"; sourceTree = "<group>"; };
+		4C484A7E27B528C6003F6063 /* LateralRaise-TooFast-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-TooFast-9.csv"; sourceTree = "<group>"; };
+		4C484A8027B528C6003F6063 /* LateralRaise-Good-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-6.csv"; sourceTree = "<group>"; };
+		4C484A8127B528C6003F6063 /* LateralRaise-Good-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-7.csv"; sourceTree = "<group>"; };
+		4C484A8227B528C6003F6063 /* LateralRaise-Good-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-5.csv"; sourceTree = "<group>"; };
+		4C484A8327B528C6003F6063 /* LateralRaise-Good-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-4.csv"; sourceTree = "<group>"; };
+		4C484A8427B528C6003F6063 /* LateralRaise-Good-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-0.csv"; sourceTree = "<group>"; };
+		4C484A8527B528C6003F6063 /* LateralRaise-Good-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-1.csv"; sourceTree = "<group>"; };
+		4C484A8627B528C6003F6063 /* LateralRaise-Good-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-3.csv"; sourceTree = "<group>"; };
+		4C484A8727B528C6003F6063 /* LateralRaise-Good-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-2.csv"; sourceTree = "<group>"; };
+		4C484A8827B528C6003F6063 /* LateralRaise-Good-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-9.csv"; sourceTree = "<group>"; };
+		4C484A8927B528C6003F6063 /* LateralRaise-Good-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LateralRaise-Good-8.csv"; sourceTree = "<group>"; };
+		4C484AA927B5299C003F6063 /* LateralRaiseFeatureExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralRaiseFeatureExtraction.swift; sourceTree = "<group>"; };
+		4C484AAC27B529E2003F6063 /* LateralRaiseFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralRaiseFeatures.swift; sourceTree = "<group>"; };
+		4C563BC2277E03190036F3D3 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		4C563BC4277E03400036F3D3 /* RepFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepFinder.swift; sourceTree = "<group>"; };
+		4C563BCC277E04100036F3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69754027985448007FA1A7 /* MotionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionStruct.swift; sourceTree = "<group>"; };
+		4C6CDCC727A1A851005A5884 /* ReadCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCSV.swift; sourceTree = "<group>"; };
+		4C6CDCCA27A1A8B7005A5884 /* CreateBuffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBuffers.swift; sourceTree = "<group>"; };
+		4C6CDCD027A1A939005A5884 /* GetRangeOfMotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRangeOfMotions.swift; sourceTree = "<group>"; };
+		4C6CDCD227A1A968005A5884 /* ReadMotionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMotionData.swift; sourceTree = "<group>"; };
+		4C6CDCD627A1B865005A5884 /* MovingAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverage.swift; sourceTree = "<group>"; };
+		4C71C17027AC5C9D0077113B /* BicepCurlFeatureExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepCurlFeatureExtraction.swift; sourceTree = "<group>"; };
+		4C71C17227AC5CEC0077113B /* BicepCurlFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepCurlFeatures.swift; sourceTree = "<group>"; };
+		4C75277A27C0F65300A36E02 /* GetRangeOfMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRangeOfMotion.swift; sourceTree = "<group>"; };
+		4C8D697C2768A28C007F1E05 /* NumbersTimelineSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTimelineSchedule.swift; sourceTree = "<group>"; };
+		4C8D697F2768A55E007F1E05 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		4C8D69822768A6C2007F1E05 /* Form Identifier WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Form Identifier WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		4C8D69842768A6C2007F1E05 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		4CA8674C27DBB3A50068C2D3 /* StatisticFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticFeatures.swift; sourceTree = "<group>"; };
+		4CA8675027DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalFeatureExtraction.swift; sourceTree = "<group>"; };
+		4CA8675627DBB8D10068C2D3 /* Exercise.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Exercise.mlmodel; sourceTree = "<group>"; };
+		4CAA2D1027AEB2C500E40F30 /* ProcessBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessBuffer.swift; sourceTree = "<group>"; };
+		4CAA2D1727AEB51800E40F30 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		4CAA2D1B27AED3B700E40F30 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		4CAC4CAF2768E177002076A7 /* SessionDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegator.swift; sourceTree = "<group>"; };
+		4CAC4CB22768E1DA002076A7 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		4CAC4CBB2768E428002076A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CB4AEF527CA65D100FFF2E7 /* SelectRepCountingAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRepCountingAxis.swift; sourceTree = "<group>"; };
+		4CB9ADC227AAE09500CAE9E4 /* RepResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepResultRow.swift; sourceTree = "<group>"; };
+		4CB9ADC427AB0EF800CAE9E4 /* MakePrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePrediction.swift; sourceTree = "<group>"; };
+		4CB9ADD327AB15A700CAE9E4 /* Simulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulate.swift; sourceTree = "<group>"; };
+		4CC0BBC227A6F2D000A95843 /* CollectionExistCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExistCheck.swift; sourceTree = "<group>"; };
+		4CC0BBC527A6FEF900A95843 /* PredictionDistribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionDistribution.swift; sourceTree = "<group>"; };
+		4CC0BBC727A7000B00A95843 /* FindFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFiles.swift; sourceTree = "<group>"; };
+		4CCDD74F270A048D00CE7708 /* Form Identifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form Identifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDD752270A048D00CE7708 /* Form_IdentifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_IdentifierApp.swift; sourceTree = "<group>"; };
+		4CCDD75D270A048E00CE7708 /* Form Identifier WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form Identifier WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDD768270A048E00CE7708 /* Form Identifier WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Form Identifier WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCDD76D270A048E00CE7708 /* Form_IdentifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_IdentifierApp.swift; sourceTree = "<group>"; };
+		4CCDD76F270A048E00CE7708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CCDD777270A048F00CE7708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCDD77D270A048F00CE7708 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4CD8DE0827ABE2FD00CEB27C /* AvgRepTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgRepTime.swift; sourceTree = "<group>"; };
+		4CD8DE0A27ABE42A00CEB27C /* AvgRangeOfMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgRangeOfMotion.swift; sourceTree = "<group>"; };
+		4CD8DE0D27AC075E00CEB27C /* FileInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInformation.swift; sourceTree = "<group>"; };
+		4CD8DE0F27AC07D500CEB27C /* RepInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepInformation.swift; sourceTree = "<group>"; };
+		4CD8DE1227AC10BA00CEB27C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4CD951F72768B28300A93C63 /* StartStopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopButton.swift; sourceTree = "<group>"; };
+		4CE0ADB127A9748D0002581E /* Squat-BadRange-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-BadRange-1.csv"; sourceTree = "<group>"; };
+		4CE0ADB227A9748D0002581E /* Squat-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-BadRange-0.csv"; sourceTree = "<group>"; };
+		4CE0ADB327A9748D0002581E /* Squat-BadRange-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-BadRange-2.csv"; sourceTree = "<group>"; };
+		4CE0ADB527A9748D0002581E /* Squat-TooFast-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-TooFast-2.csv"; sourceTree = "<group>"; };
+		4CE0ADB627A9748D0002581E /* Squat-TooFast-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-TooFast-0.csv"; sourceTree = "<group>"; };
+		4CE0ADB727A9748D0002581E /* Squat-TooFast-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-TooFast-1.csv"; sourceTree = "<group>"; };
+		4CE0ADB927A9748D0002581E /* Squat-Good-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Squat-Good-0.csv"; sourceTree = "<group>"; };
+		4CE0ADBD27A9748D0002581E /* Other-Moving-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Moving-3.csv"; sourceTree = "<group>"; };
+		4CE0ADBE27A9748D0002581E /* Other-Moving-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Moving-2.csv"; sourceTree = "<group>"; };
+		4CE0ADBF27A9748D0002581E /* Other-Moving-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Moving-0.csv"; sourceTree = "<group>"; };
+		4CE0ADC027A9748D0002581E /* Other-Moving-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Moving-1.csv"; sourceTree = "<group>"; };
+		4CE0ADCD27A9748D0002581E /* Other-Still-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-9.csv"; sourceTree = "<group>"; };
+		4CE0ADCE27A9748D0002581E /* Other-Still-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-8.csv"; sourceTree = "<group>"; };
+		4CE0ADCF27A9748D0002581E /* Other-Still-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-3.csv"; sourceTree = "<group>"; };
+		4CE0ADD027A9748D0002581E /* Other-Still-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-2.csv"; sourceTree = "<group>"; };
+		4CE0ADD127A9748D0002581E /* Other-Still-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-0.csv"; sourceTree = "<group>"; };
+		4CE0ADD227A9748D0002581E /* Other-Still-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-1.csv"; sourceTree = "<group>"; };
+		4CE0ADD327A9748D0002581E /* Other-Still-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-5.csv"; sourceTree = "<group>"; };
+		4CE0ADD427A9748D0002581E /* Other-Still-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-4.csv"; sourceTree = "<group>"; };
+		4CE0ADD527A9748D0002581E /* Other-Still-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-6.csv"; sourceTree = "<group>"; };
+		4CE0ADD627A9748D0002581E /* Other-Still-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Other-Still-7.csv"; sourceTree = "<group>"; };
+		4CE0ADE927A9748D0002581E /* BenchPress-BadRange-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-2.csv"; sourceTree = "<group>"; };
+		4CE0ADEA27A9748D0002581E /* BenchPress-BadRange-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-3.csv"; sourceTree = "<group>"; };
+		4CE0ADEB27A9748D0002581E /* BenchPress-BadRange-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-1.csv"; sourceTree = "<group>"; };
+		4CE0ADEC27A9748D0002581E /* BenchPress-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-0.csv"; sourceTree = "<group>"; };
+		4CE0ADED27A9748D0002581E /* BenchPress-BadRange-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-4.csv"; sourceTree = "<group>"; };
+		4CE0ADEE27A9748D0002581E /* BenchPress-BadRange-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-5.csv"; sourceTree = "<group>"; };
+		4CE0ADEF27A9748D0002581E /* BenchPress-BadRange-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-7.csv"; sourceTree = "<group>"; };
+		4CE0ADF027A9748D0002581E /* BenchPress-BadRange-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-6.csv"; sourceTree = "<group>"; };
+		4CE0ADF127A9748D0002581E /* BenchPress-BadRange-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-8.csv"; sourceTree = "<group>"; };
+		4CE0ADF227A9748D0002581E /* BenchPress-BadRange-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-BadRange-9.csv"; sourceTree = "<group>"; };
+		4CE0ADF427A9748D0002581E /* BenchPress-TooFast-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-3.csv"; sourceTree = "<group>"; };
+		4CE0ADF527A9748D0002581E /* BenchPress-TooFast-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-2.csv"; sourceTree = "<group>"; };
+		4CE0ADF627A9748D0002581E /* BenchPress-TooFast-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-0.csv"; sourceTree = "<group>"; };
+		4CE0ADF727A9748D0002581E /* BenchPress-TooFast-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-1.csv"; sourceTree = "<group>"; };
+		4CE0ADF827A9748D0002581E /* BenchPress-TooFast-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-5.csv"; sourceTree = "<group>"; };
+		4CE0ADF927A9748D0002581E /* BenchPress-TooFast-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-4.csv"; sourceTree = "<group>"; };
+		4CE0ADFA27A9748D0002581E /* BenchPress-TooFast-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-6.csv"; sourceTree = "<group>"; };
+		4CE0ADFB27A9748D0002581E /* BenchPress-TooFast-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-7.csv"; sourceTree = "<group>"; };
+		4CE0ADFC27A9748D0002581E /* BenchPress-TooFast-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-9.csv"; sourceTree = "<group>"; };
+		4CE0ADFD27A9748D0002581E /* BenchPress-TooFast-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BenchPress-TooFast-8.csv"; sourceTree = "<group>"; };
+		4CE0AE0C27A9748D0002581E /* BicepCurl-BadRange-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-9.csv"; sourceTree = "<group>"; };
+		4CE0AE0D27A9748D0002581E /* BicepCurl-BadRange-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-8.csv"; sourceTree = "<group>"; };
+		4CE0AE0E27A9748D0002581E /* BicepCurl-BadRange-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-6.csv"; sourceTree = "<group>"; };
+		4CE0AE0F27A9748D0002581E /* BicepCurl-BadRange-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-7.csv"; sourceTree = "<group>"; };
+		4CE0AE1027A9748D0002581E /* BicepCurl-BadRange-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-5.csv"; sourceTree = "<group>"; };
+		4CE0AE1127A9748D0002581E /* BicepCurl-BadRange-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-4.csv"; sourceTree = "<group>"; };
+		4CE0AE1227A9748D0002581E /* BicepCurl-BadRange-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-0.csv"; sourceTree = "<group>"; };
+		4CE0AE1327A9748D0002581E /* BicepCurl-BadRange-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-1.csv"; sourceTree = "<group>"; };
+		4CE0AE1427A9748D0002581E /* BicepCurl-BadRange-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-3.csv"; sourceTree = "<group>"; };
+		4CE0AE1527A9748D0002581E /* BicepCurl-BadRange-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-BadRange-2.csv"; sourceTree = "<group>"; };
+		4CE0AE1727A9748D0002581E /* BicepCurl-TooFast-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-2.csv"; sourceTree = "<group>"; };
+		4CE0AE1827A9748D0002581E /* BicepCurl-TooFast-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-3.csv"; sourceTree = "<group>"; };
+		4CE0AE1927A9748D0002581E /* BicepCurl-TooFast-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-1.csv"; sourceTree = "<group>"; };
+		4CE0AE1A27A9748D0002581E /* BicepCurl-TooFast-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-0.csv"; sourceTree = "<group>"; };
+		4CE0AE1B27A9748D0002581E /* BicepCurl-TooFast-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-4.csv"; sourceTree = "<group>"; };
+		4CE0AE1C27A9748D0002581E /* BicepCurl-TooFast-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-5.csv"; sourceTree = "<group>"; };
+		4CE0AE1D27A9748D0002581E /* BicepCurl-TooFast-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-7.csv"; sourceTree = "<group>"; };
+		4CE0AE1E27A9748D0002581E /* BicepCurl-TooFast-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-6.csv"; sourceTree = "<group>"; };
+		4CE0AE1F27A9748D0002581E /* BicepCurl-TooFast-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-8.csv"; sourceTree = "<group>"; };
+		4CE0AE2027A9748D0002581E /* BicepCurl-TooFast-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-TooFast-9.csv"; sourceTree = "<group>"; };
+		4CE0AE2227A9748D0002581E /* BicepCurl-Good-8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-8.csv"; sourceTree = "<group>"; };
+		4CE0AE2327A9748D0002581E /* BicepCurl-Good-9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-9.csv"; sourceTree = "<group>"; };
+		4CE0AE2427A9748D0002581E /* BicepCurl-Good-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-1.csv"; sourceTree = "<group>"; };
+		4CE0AE2527A9748D0002581E /* BicepCurl-Good-0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-0.csv"; sourceTree = "<group>"; };
+		4CE0AE2627A9748D0002581E /* BicepCurl-Good-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-2.csv"; sourceTree = "<group>"; };
+		4CE0AE2727A9748D0002581E /* BicepCurl-Good-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-3.csv"; sourceTree = "<group>"; };
+		4CE0AE2827A9748D0002581E /* BicepCurl-Good-7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-7.csv"; sourceTree = "<group>"; };
+		4CE0AE2927A9748D0002581E /* BicepCurl-Good-6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-6.csv"; sourceTree = "<group>"; };
+		4CE0AE2A27A9748D0002581E /* BicepCurl-Good-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-4.csv"; sourceTree = "<group>"; };
+		4CE0AE2B27A9748D0002581E /* BicepCurl-Good-5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BicepCurl-Good-5.csv"; sourceTree = "<group>"; };
+		4CE0AEDE27A986D00002581E /* AverageDeviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageDeviation.swift; sourceTree = "<group>"; };
+		4CE0AEE127A99B250002581E /* RadToDeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadToDeg.swift; sourceTree = "<group>"; };
+		4CE0AEE427A9ADE40002581E /* GetRollAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRollAngle.swift; sourceTree = "<group>"; };
+		4CE36E882795F294001C741E /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCDD74C270A048D00CE7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D235D27CFE40B00A3DC73 /* SigmaSwiftStatistics in Frameworks */,
+				4C563BC8277E03790036F3D3 /* Algorithms in Frameworks */,
+				4C563BCB277E03A90036F3D3 /* Charts in Frameworks */,
+				4C3D23A627D0015400A3DC73 /* Surge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD765270A048E00CE7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D236427CFE5C400A3DC73 /* Algorithms in Frameworks */,
+				4C8D69852768A6C2007F1E05 /* HealthKit.framework in Frameworks */,
+				4C3D235F27CFE4F100A3DC73 /* SigmaSwiftStatistics in Frameworks */,
+				4C3D23A827D0016300A3DC73 /* Surge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C001FC527AACEA500843EA6 /* FileNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				4C46CBEC2797027D0034094C /* ExerciseList.swift */,
+				4C46CBEE279706670034094C /* MotionTypeList.swift */,
+				4C46CBF7279708B10034094C /* CSVList.swift */,
+				4CB9ADCA27AB112800CAE9E4 /* Functions */,
+			);
+			path = FileNavigation;
+			sourceTree = "<group>";
+		};
+		4C07609B27CBC9B300338372 /* BadRange */ = {
+			isa = PBXGroup;
+			children = (
+				4C07609C27CBC9B300338372 /* LateralRaise-BadRange-8.csv */,
+				4C07609D27CBC9B300338372 /* LateralRaise-BadRange-9.csv */,
+				4C07609E27CBC9B300338372 /* LateralRaise-BadRange-4.csv */,
+				4C07609F27CBC9B300338372 /* LateralRaise-BadRange-5.csv */,
+				4C0760A027CBC9B300338372 /* LateralRaise-BadRange-7.csv */,
+				4C0760A127CBC9B300338372 /* LateralRaise-BadRange-6.csv */,
+				4C0760A227CBC9B300338372 /* LateralRaise-BadRange-2.csv */,
+				4C0760A327CBC9B300338372 /* LateralRaise-BadRange-3.csv */,
+				4C0760A427CBC9B300338372 /* LateralRaise-BadRange-1.csv */,
+				4C0760A527CBC9B300338372 /* LateralRaise-BadRange-0.csv */,
+			);
+			path = BadRange;
+			sourceTree = "<group>";
+		};
+		4C2D262627A044F6001BFE49 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4C69754027985448007FA1A7 /* MotionStruct.swift */,
+				4C2D262427A044EF001BFE49 /* Metrics.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4C2D262A27A089B8001BFE49 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA2D1727AEB51800E40F30 /* MotionManager.swift */,
+				4C2D262227A0206A001BFE49 /* LineGraph.swift */,
+				4C2D262827A089B0001BFE49 /* Graphs.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4C3D236027CFE51000A3DC73 /* BicepCurl */ = {
+			isa = PBXGroup;
+			children = (
+				4C71C17027AC5C9D0077113B /* BicepCurlFeatureExtraction.swift */,
+				4C71C17227AC5CEC0077113B /* BicepCurlFeatures.swift */,
+			);
+			path = BicepCurl;
+			sourceTree = "<group>";
+		};
+		4C3D236127CFE51C00A3DC73 /* LateralRaise */ = {
+			isa = PBXGroup;
+			children = (
+				4C484AA927B5299C003F6063 /* LateralRaiseFeatureExtraction.swift */,
+				4C484AAC27B529E2003F6063 /* LateralRaiseFeatures.swift */,
+			);
+			path = LateralRaise;
+			sourceTree = "<group>";
+		};
+		4C46CBF4279707F60034094C /* Live Motion */ = {
+			isa = PBXGroup;
+			children = (
+				4C46CBF2279707310034094C /* LiveMotion.swift */,
+				4CC0BBC527A6FEF900A95843 /* PredictionDistribution.swift */,
+			);
+			path = "Live Motion";
+			sourceTree = "<group>";
+		};
+		4C46CBF5279708220034094C /* Simulate Motion */ = {
+			isa = PBXGroup;
+			children = (
+				4C46CBFC27970AAC0034094C /* SimulateMotion.swift */,
+				4C001FC627AACEE600843EA6 /* WindowResultRow.swift */,
+				4CB9ADC227AAE09500CAE9E4 /* RepResultRow.swift */,
+				4C001FBE27AABA8600843EA6 /* DisplayMetric.swift */,
+				4C001FC327AACDED00843EA6 /* MotionTypeLegend.swift */,
+				4CD8DE0D27AC075E00CEB27C /* FileInformation.swift */,
+				4CD8DE0F27AC07D500CEB27C /* RepInformation.swift */,
+				4C6CDCCC27A1A8F2005A5884 /* Functions */,
+			);
+			path = "Simulate Motion";
+			sourceTree = "<group>";
+		};
+		4C484A6827B528C6003F6063 /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C07609B27CBC9B300338372 /* BadRange */,
+				4C484A7427B528C6003F6063 /* TooFast */,
+				4C484A7F27B528C6003F6063 /* Good */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4C484A7427B528C6003F6063 /* TooFast */ = {
+			isa = PBXGroup;
+			children = (
+				4C484A7527B528C6003F6063 /* LateralRaise-TooFast-4.csv */,
+				4C484A7627B528C6003F6063 /* LateralRaise-TooFast-5.csv */,
+				4C484A7727B528C6003F6063 /* LateralRaise-TooFast-7.csv */,
+				4C484A7827B528C6003F6063 /* LateralRaise-TooFast-6.csv */,
+				4C484A7927B528C6003F6063 /* LateralRaise-TooFast-2.csv */,
+				4C484A7A27B528C6003F6063 /* LateralRaise-TooFast-3.csv */,
+				4C484A7B27B528C6003F6063 /* LateralRaise-TooFast-1.csv */,
+				4C484A7C27B528C6003F6063 /* LateralRaise-TooFast-0.csv */,
+				4C484A7D27B528C6003F6063 /* LateralRaise-TooFast-8.csv */,
+				4C484A7E27B528C6003F6063 /* LateralRaise-TooFast-9.csv */,
+			);
+			path = TooFast;
+			sourceTree = "<group>";
+		};
+		4C484A7F27B528C6003F6063 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				4C484A8027B528C6003F6063 /* LateralRaise-Good-6.csv */,
+				4C484A8127B528C6003F6063 /* LateralRaise-Good-7.csv */,
+				4C484A8227B528C6003F6063 /* LateralRaise-Good-5.csv */,
+				4C484A8327B528C6003F6063 /* LateralRaise-Good-4.csv */,
+				4C484A8427B528C6003F6063 /* LateralRaise-Good-0.csv */,
+				4C484A8527B528C6003F6063 /* LateralRaise-Good-1.csv */,
+				4C484A8627B528C6003F6063 /* LateralRaise-Good-3.csv */,
+				4C484A8727B528C6003F6063 /* LateralRaise-Good-2.csv */,
+				4C484A8827B528C6003F6063 /* LateralRaise-Good-9.csv */,
+				4C484A8927B528C6003F6063 /* LateralRaise-Good-8.csv */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		4C484AA827B52983003F6063 /* Feature Extraction */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8674F27DBB5220068C2D3 /* Statistical */,
+				4C3D236027CFE51000A3DC73 /* BicepCurl */,
+				4C3D236127CFE51C00A3DC73 /* LateralRaise */,
+			);
+			path = "Feature Extraction";
+			sourceTree = "<group>";
+		};
+		4C6CDCCC27A1A8F2005A5884 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9ADD327AB15A700CAE9E4 /* Simulate.swift */,
+				4C6CDCD227A1A968005A5884 /* ReadMotionData.swift */,
+				4C6CDCCA27A1A8B7005A5884 /* CreateBuffers.swift */,
+				4CE0AEDE27A986D00002581E /* AverageDeviation.swift */,
+				4CD8DE0827ABE2FD00CEB27C /* AvgRepTime.swift */,
+				4CD8DE0A27ABE42A00CEB27C /* AvgRangeOfMotion.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		4C71C16A27AC55D60077113B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C8D697F2768A55E007F1E05 /* WorkoutManager.swift */,
+				4C563BC2277E03190036F3D3 /* MotionManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4C71C16B27AC55DE0077113B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDD76F270A048E00CE7708 /* ContentView.swift */,
+				4CD951F72768B28300A93C63 /* StartStopButton.swift */,
+				4CAA2D1B27AED3B700E40F30 /* ResetButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C71C16C27AC560E0077113B /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4C8D697C2768A28C007F1E05 /* NumbersTimelineSchedule.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4C8D69832768A6C2007F1E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8D69842768A6C2007F1E05 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CA8674127DBB2B70068C2D3 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8675627DBB8D10068C2D3 /* Exercise.mlmodel */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		4CA8674F27DBB5220068C2D3 /* Statistical */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8675027DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift */,
+				4CA8674C27DBB3A50068C2D3 /* StatisticFeatures.swift */,
+				4C3D23A927D0081300A3DC73 /* CalcStatisticFeatures.swift */,
+				4C35B81627CFD3F9007BCE8F /* CountPeaks.swift */,
+			);
+			path = Statistical;
+			sourceTree = "<group>";
+		};
+		4CAA2D1927AECC8B00E40F30 /* SharedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4C484AA827B52983003F6063 /* Feature Extraction */,
+				4CE36E882795F294001C741E /* ModelManager.swift */,
+				4CB4AEF527CA65D100FFF2E7 /* SelectRepCountingAxis.swift */,
+				4CAA2D1027AEB2C500E40F30 /* ProcessBuffer.swift */,
+				4CB9ADC427AB0EF800CAE9E4 /* MakePrediction.swift */,
+				4C6CDCD627A1B865005A5884 /* MovingAverage.swift */,
+				4C563BC4277E03400036F3D3 /* RepFinder.swift */,
+				4C001FC027AABF7C00843EA6 /* IsTurningPoint.swift */,
+				4CE0AEE127A99B250002581E /* RadToDeg.swift */,
+				4C6CDCD027A1A939005A5884 /* GetRangeOfMotions.swift */,
+				4C75277A27C0F65300A36E02 /* GetRangeOfMotion.swift */,
+				4CE0AEE427A9ADE40002581E /* GetRollAngle.swift */,
+				4CC0BBC227A6F2D000A95843 /* CollectionExistCheck.swift */,
+			);
+			path = SharedFiles;
+			sourceTree = "<group>";
+		};
+		4CB9ADCA27AB112800CAE9E4 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				4C6CDCC727A1A851005A5884 /* ReadCSV.swift */,
+				4CC0BBC727A7000B00A95843 /* FindFiles.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		4CCDD746270A048D00CE7708 = {
+			isa = PBXGroup;
+			children = (
+				4CCDD751270A048D00CE7708 /* Form Identifier */,
+				4CCDD761270A048E00CE7708 /* Form Identifier WatchKit App */,
+				4CCDD76C270A048E00CE7708 /* Form Identifier WatchKit Extension */,
+				4CAA2D1927AECC8B00E40F30 /* SharedFiles */,
+				4CF0EED627A6CB8000119DAA /* SharedData */,
+				4CE0ADAC27A9748D0002581E /* Exercises */,
+				4CCDD750270A048D00CE7708 /* Products */,
+				4C8D69832768A6C2007F1E05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCDD750270A048D00CE7708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDD74F270A048D00CE7708 /* Form Identifier.app */,
+				4CCDD75D270A048E00CE7708 /* Form Identifier WatchKit App.app */,
+				4CCDD768270A048E00CE7708 /* Form Identifier WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCDD751270A048D00CE7708 /* Form Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDD752270A048D00CE7708 /* Form_IdentifierApp.swift */,
+				4C563BCC277E04100036F3D3 /* Info.plist */,
+				4C1089F32789CB680084E998 /* Assets.xcassets */,
+				4CD8DE0C27AC06F500CEB27C /* Views */,
+				4C2D262A27A089B8001BFE49 /* Helpers */,
+				4C2D262627A044F6001BFE49 /* Structs */,
+			);
+			path = "Form Identifier";
+			sourceTree = "<group>";
+		};
+		4CCDD761270A048E00CE7708 /* Form Identifier WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4C1089F52789CB890084E998 /* Assets.xcassets */,
+			);
+			path = "Form Identifier WatchKit App";
+			sourceTree = "<group>";
+		};
+		4CCDD76C270A048E00CE7708 /* Form Identifier WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C8D69822768A6C2007F1E05 /* Form Identifier WatchKit Extension.entitlements */,
+				4CCDD76D270A048E00CE7708 /* Form_IdentifierApp.swift */,
+				4C11AB1D277E056300C65175 /* Info.plist */,
+				4CCDD777270A048F00CE7708 /* Assets.xcassets */,
+				4CCDD77D270A048F00CE7708 /* PushNotificationPayload.apns */,
+				4C71C16B27AC55DE0077113B /* Views */,
+				4C71C16A27AC55D60077113B /* Helpers */,
+				4C71C16C27AC560E0077113B /* Structs */,
+			);
+			path = "Form Identifier WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4CD8DE0C27AC06F500CEB27C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC4CBB2768E428002076A7 /* ContentView.swift */,
+				4C46CBF5279708220034094C /* Simulate Motion */,
+				4C46CBF4279707F60034094C /* Live Motion */,
+				4CD8DE1127AC10A700CEB27C /* Settings */,
+				4C001FC527AACEA500843EA6 /* FileNavigation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD8DE1127AC10A700CEB27C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8DE1227AC10BA00CEB27C /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4CE0ADAC27A9748D0002581E /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADE427A9748D0002581E /* BenchPress */,
+				4CE0ADFF27A9748D0002581E /* BicepCurl */,
+				4CE0ADD727A9748D0002581E /* Lateral Raise */,
+				4CE0ADBA27A9748D0002581E /* Other */,
+				4CE0ADDD27A9748D0002581E /* ShoulderPress */,
+				4CE0ADAD27A9748D0002581E /* Squat */,
+				4CA8674127DBB2B70068C2D3 /* Exercise */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		4CE0ADAD27A9748D0002581E /* Squat */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADAF27A9748D0002581E /* Raw Data */,
+			);
+			path = Squat;
+			sourceTree = "<group>";
+		};
+		4CE0ADAF27A9748D0002581E /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADB027A9748D0002581E /* BadRange */,
+				4CE0ADB427A9748D0002581E /* TooFast */,
+				4CE0ADB827A9748D0002581E /* Good */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4CE0ADB027A9748D0002581E /* BadRange */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADB127A9748D0002581E /* Squat-BadRange-1.csv */,
+				4CE0ADB227A9748D0002581E /* Squat-BadRange-0.csv */,
+				4CE0ADB327A9748D0002581E /* Squat-BadRange-2.csv */,
+			);
+			path = BadRange;
+			sourceTree = "<group>";
+		};
+		4CE0ADB427A9748D0002581E /* TooFast */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADB527A9748D0002581E /* Squat-TooFast-2.csv */,
+				4CE0ADB627A9748D0002581E /* Squat-TooFast-0.csv */,
+				4CE0ADB727A9748D0002581E /* Squat-TooFast-1.csv */,
+			);
+			path = TooFast;
+			sourceTree = "<group>";
+		};
+		4CE0ADB827A9748D0002581E /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADB927A9748D0002581E /* Squat-Good-0.csv */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		4CE0ADBA27A9748D0002581E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADBB27A9748D0002581E /* Raw Data */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4CE0ADBB27A9748D0002581E /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADBC27A9748D0002581E /* Moving */,
+				4CE0ADCC27A9748D0002581E /* Still */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4CE0ADBC27A9748D0002581E /* Moving */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADBD27A9748D0002581E /* Other-Moving-3.csv */,
+				4CE0ADBE27A9748D0002581E /* Other-Moving-2.csv */,
+				4CE0ADBF27A9748D0002581E /* Other-Moving-0.csv */,
+				4CE0ADC027A9748D0002581E /* Other-Moving-1.csv */,
+			);
+			path = Moving;
+			sourceTree = "<group>";
+		};
+		4CE0ADCC27A9748D0002581E /* Still */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADCD27A9748D0002581E /* Other-Still-9.csv */,
+				4CE0ADCE27A9748D0002581E /* Other-Still-8.csv */,
+				4CE0ADCF27A9748D0002581E /* Other-Still-3.csv */,
+				4CE0ADD027A9748D0002581E /* Other-Still-2.csv */,
+				4CE0ADD127A9748D0002581E /* Other-Still-0.csv */,
+				4CE0ADD227A9748D0002581E /* Other-Still-1.csv */,
+				4CE0ADD327A9748D0002581E /* Other-Still-5.csv */,
+				4CE0ADD427A9748D0002581E /* Other-Still-4.csv */,
+				4CE0ADD527A9748D0002581E /* Other-Still-6.csv */,
+				4CE0ADD627A9748D0002581E /* Other-Still-7.csv */,
+			);
+			path = Still;
+			sourceTree = "<group>";
+		};
+		4CE0ADD727A9748D0002581E /* Lateral Raise */ = {
+			isa = PBXGroup;
+			children = (
+				4C356BB627D20AB600D59C8D /* LateralRaise.mlmodel */,
+				4C484A6827B528C6003F6063 /* Raw Data */,
+			);
+			path = "Lateral Raise";
+			sourceTree = "<group>";
+		};
+		4CE0ADDD27A9748D0002581E /* ShoulderPress */ = {
+			isa = PBXGroup;
+			children = (
+				4C356BB927D20ACB00D59C8D /* ShoulderPress.mlmodel */,
+				4CE0ADDF27A9748D0002581E /* Raw Data */,
+			);
+			path = ShoulderPress;
+			sourceTree = "<group>";
+		};
+		4CE0ADDF27A9748D0002581E /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADE027A9748D0002581E /* BadRange */,
+				4CE0ADE227A9748D0002581E /* Good */,
+				4CE0ADE327A9748D0002581E /* LegMomentum */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4CE0ADE027A9748D0002581E /* BadRange */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D237127CFF5F400A3DC73 /* ShoulderPress-BadRange-0.csv */,
+				4C3D236C27CFF5F400A3DC73 /* ShoulderPress-BadRange-1.csv */,
+				4C3D236D27CFF5F400A3DC73 /* ShoulderPress-BadRange-2.csv */,
+				4C3D236E27CFF5F400A3DC73 /* ShoulderPress-BadRange-3.csv */,
+				4C3D237027CFF5F400A3DC73 /* ShoulderPress-BadRange-4.csv */,
+				4C3D236827CFF5F400A3DC73 /* ShoulderPress-BadRange-5.csv */,
+				4C3D236927CFF5F400A3DC73 /* ShoulderPress-BadRange-6.csv */,
+				4C3D236A27CFF5F400A3DC73 /* ShoulderPress-BadRange-7.csv */,
+				4C3D236F27CFF5F400A3DC73 /* ShoulderPress-BadRange-8.csv */,
+				4C3D236B27CFF5F400A3DC73 /* ShoulderPress-BadRange-9.csv */,
+			);
+			path = BadRange;
+			sourceTree = "<group>";
+		};
+		4CE0ADE227A9748D0002581E /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D238127CFF60000A3DC73 /* ShoulderPress-Good-0.csv */,
+				4C3D237D27CFF60000A3DC73 /* ShoulderPress-Good-1.csv */,
+				4C3D238027CFF60000A3DC73 /* ShoulderPress-Good-2.csv */,
+				4C3D238427CFF60000A3DC73 /* ShoulderPress-Good-3.csv */,
+				4C3D238527CFF60000A3DC73 /* ShoulderPress-Good-4.csv */,
+				4C3D237C27CFF60000A3DC73 /* ShoulderPress-Good-5.csv */,
+				4C3D238227CFF60000A3DC73 /* ShoulderPress-Good-6.csv */,
+				4C3D237E27CFF60000A3DC73 /* ShoulderPress-Good-7.csv */,
+				4C3D237F27CFF60000A3DC73 /* ShoulderPress-Good-8.csv */,
+				4C3D238327CFF60000A3DC73 /* ShoulderPress-Good-9.csv */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		4CE0ADE327A9748D0002581E /* LegMomentum */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D239527CFF61300A3DC73 /* ShoulderPress-LegMomentum-0.csv */,
+				4C3D239027CFF61300A3DC73 /* ShoulderPress-LegMomentum-1.csv */,
+				4C3D239927CFF61300A3DC73 /* ShoulderPress-LegMomentum-2.csv */,
+				4C3D239327CFF61300A3DC73 /* ShoulderPress-LegMomentum-3.csv */,
+				4C3D239227CFF61300A3DC73 /* ShoulderPress-LegMomentum-4.csv */,
+				4C3D239127CFF61300A3DC73 /* ShoulderPress-LegMomentum-5.csv */,
+				4C3D239427CFF61300A3DC73 /* ShoulderPress-LegMomentum-6.csv */,
+				4C3D239827CFF61300A3DC73 /* ShoulderPress-LegMomentum-7.csv */,
+				4C3D239627CFF61300A3DC73 /* ShoulderPress-LegMomentum-8.csv */,
+				4C3D239727CFF61300A3DC73 /* ShoulderPress-LegMomentum-9.csv */,
+			);
+			path = LegMomentum;
+			sourceTree = "<group>";
+		};
+		4CE0ADE427A9748D0002581E /* BenchPress */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADE627A9748D0002581E /* Raw Data */,
+			);
+			path = BenchPress;
+			sourceTree = "<group>";
+		};
+		4CE0ADE627A9748D0002581E /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADE727A9748D0002581E /* BouncingBar */,
+				4CE0ADE827A9748D0002581E /* BadRange */,
+				4CE0ADF327A9748D0002581E /* TooFast */,
+				4CE0ADFE27A9748D0002581E /* Good */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4CE0ADE727A9748D0002581E /* BouncingBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BouncingBar;
+			sourceTree = "<group>";
+		};
+		4CE0ADE827A9748D0002581E /* BadRange */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADE927A9748D0002581E /* BenchPress-BadRange-2.csv */,
+				4CE0ADEA27A9748D0002581E /* BenchPress-BadRange-3.csv */,
+				4CE0ADEB27A9748D0002581E /* BenchPress-BadRange-1.csv */,
+				4CE0ADEC27A9748D0002581E /* BenchPress-BadRange-0.csv */,
+				4CE0ADED27A9748D0002581E /* BenchPress-BadRange-4.csv */,
+				4CE0ADEE27A9748D0002581E /* BenchPress-BadRange-5.csv */,
+				4CE0ADEF27A9748D0002581E /* BenchPress-BadRange-7.csv */,
+				4CE0ADF027A9748D0002581E /* BenchPress-BadRange-6.csv */,
+				4CE0ADF127A9748D0002581E /* BenchPress-BadRange-8.csv */,
+				4CE0ADF227A9748D0002581E /* BenchPress-BadRange-9.csv */,
+			);
+			path = BadRange;
+			sourceTree = "<group>";
+		};
+		4CE0ADF327A9748D0002581E /* TooFast */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0ADF427A9748D0002581E /* BenchPress-TooFast-3.csv */,
+				4CE0ADF527A9748D0002581E /* BenchPress-TooFast-2.csv */,
+				4CE0ADF627A9748D0002581E /* BenchPress-TooFast-0.csv */,
+				4CE0ADF727A9748D0002581E /* BenchPress-TooFast-1.csv */,
+				4CE0ADF827A9748D0002581E /* BenchPress-TooFast-5.csv */,
+				4CE0ADF927A9748D0002581E /* BenchPress-TooFast-4.csv */,
+				4CE0ADFA27A9748D0002581E /* BenchPress-TooFast-6.csv */,
+				4CE0ADFB27A9748D0002581E /* BenchPress-TooFast-7.csv */,
+				4CE0ADFC27A9748D0002581E /* BenchPress-TooFast-9.csv */,
+				4CE0ADFD27A9748D0002581E /* BenchPress-TooFast-8.csv */,
+			);
+			path = TooFast;
+			sourceTree = "<group>";
+		};
+		4CE0ADFE27A9748D0002581E /* Good */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		4CE0ADFF27A9748D0002581E /* BicepCurl */ = {
+			isa = PBXGroup;
+			children = (
+				4C356BB327D20AA200D59C8D /* BicepCurl.mlmodel */,
+				4CE0AE0127A9748D0002581E /* Test Data */,
+				4CE0AE0A27A9748D0002581E /* Raw Data */,
+			);
+			path = BicepCurl;
+			sourceTree = "<group>";
+		};
+		4CE0AE0127A9748D0002581E /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C200B3427AD904300D7448F /* BicepCurl-Test-BadRange-0.csv */,
+				4C200B3727AD904300D7448F /* BicepCurl-Test-Good-0.csv */,
+				4C200B3327AD904300D7448F /* BicepCurl-Test-Other-0.csv */,
+				4C200B3527AD904300D7448F /* BicepCurl-Test-RealWorld-0.csv */,
+				4C200B3627AD904300D7448F /* BicepCurl-Test-TooFast-0.csv */,
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		4CE0AE0A27A9748D0002581E /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0AE0B27A9748D0002581E /* BadRange */,
+				4CE0AE1627A9748D0002581E /* TooFast */,
+				4CE0AE2127A9748D0002581E /* Good */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		4CE0AE0B27A9748D0002581E /* BadRange */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0AE0C27A9748D0002581E /* BicepCurl-BadRange-9.csv */,
+				4CE0AE0D27A9748D0002581E /* BicepCurl-BadRange-8.csv */,
+				4CE0AE0E27A9748D0002581E /* BicepCurl-BadRange-6.csv */,
+				4CE0AE0F27A9748D0002581E /* BicepCurl-BadRange-7.csv */,
+				4CE0AE1027A9748D0002581E /* BicepCurl-BadRange-5.csv */,
+				4CE0AE1127A9748D0002581E /* BicepCurl-BadRange-4.csv */,
+				4CE0AE1227A9748D0002581E /* BicepCurl-BadRange-0.csv */,
+				4CE0AE1327A9748D0002581E /* BicepCurl-BadRange-1.csv */,
+				4CE0AE1427A9748D0002581E /* BicepCurl-BadRange-3.csv */,
+				4CE0AE1527A9748D0002581E /* BicepCurl-BadRange-2.csv */,
+			);
+			path = BadRange;
+			sourceTree = "<group>";
+		};
+		4CE0AE1627A9748D0002581E /* TooFast */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0AE1727A9748D0002581E /* BicepCurl-TooFast-2.csv */,
+				4CE0AE1827A9748D0002581E /* BicepCurl-TooFast-3.csv */,
+				4CE0AE1927A9748D0002581E /* BicepCurl-TooFast-1.csv */,
+				4CE0AE1A27A9748D0002581E /* BicepCurl-TooFast-0.csv */,
+				4CE0AE1B27A9748D0002581E /* BicepCurl-TooFast-4.csv */,
+				4CE0AE1C27A9748D0002581E /* BicepCurl-TooFast-5.csv */,
+				4CE0AE1D27A9748D0002581E /* BicepCurl-TooFast-7.csv */,
+				4CE0AE1E27A9748D0002581E /* BicepCurl-TooFast-6.csv */,
+				4CE0AE1F27A9748D0002581E /* BicepCurl-TooFast-8.csv */,
+				4CE0AE2027A9748D0002581E /* BicepCurl-TooFast-9.csv */,
+			);
+			path = TooFast;
+			sourceTree = "<group>";
+		};
+		4CE0AE2127A9748D0002581E /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0AE2227A9748D0002581E /* BicepCurl-Good-8.csv */,
+				4CE0AE2327A9748D0002581E /* BicepCurl-Good-9.csv */,
+				4CE0AE2427A9748D0002581E /* BicepCurl-Good-1.csv */,
+				4CE0AE2527A9748D0002581E /* BicepCurl-Good-0.csv */,
+				4CE0AE2627A9748D0002581E /* BicepCurl-Good-2.csv */,
+				4CE0AE2727A9748D0002581E /* BicepCurl-Good-3.csv */,
+				4CE0AE2827A9748D0002581E /* BicepCurl-Good-7.csv */,
+				4CE0AE2927A9748D0002581E /* BicepCurl-Good-6.csv */,
+				4CE0AE2A27A9748D0002581E /* BicepCurl-Good-4.csv */,
+				4CE0AE2B27A9748D0002581E /* BicepCurl-Good-5.csv */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		4CF0EED627A6CB8000119DAA /* SharedData */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC4CB22768E1DA002076A7 /* SharedData.swift */,
+				4CAC4CAF2768E177002076A7 /* SessionDelegator.swift */,
+			);
+			path = SharedData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCDD74E270A048D00CE7708 /* Form Identifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDD788270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier" */;
+			buildPhases = (
+				4CCDD74B270A048D00CE7708 /* Sources */,
+				4CCDD74C270A048D00CE7708 /* Frameworks */,
+				4CCDD74D270A048D00CE7708 /* Resources */,
+				4CCDD787270A048F00CE7708 /* Embed Watch Content */,
+				4CA4A77B2798A7CF00C6A540 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCDD760270A048E00CE7708 /* PBXTargetDependency */,
+			);
+			name = "Form Identifier";
+			packageProductDependencies = (
+				4C563BC7277E03790036F3D3 /* Algorithms */,
+				4C563BCA277E03A90036F3D3 /* Charts */,
+				4C3D235C27CFE40B00A3DC73 /* SigmaSwiftStatistics */,
+				4C3D23A527D0015400A3DC73 /* Surge */,
+			);
+			productName = "Form Identifier";
+			productReference = 4CCDD74F270A048D00CE7708 /* Form Identifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCDD75C270A048E00CE7708 /* Form Identifier WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDD784270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier WatchKit App" */;
+			buildPhases = (
+				4CCDD75B270A048E00CE7708 /* Resources */,
+				4CCDD783270A048F00CE7708 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCDD76B270A048E00CE7708 /* PBXTargetDependency */,
+			);
+			name = "Form Identifier WatchKit App";
+			productName = "Form Identifier WatchKit App";
+			productReference = 4CCDD75D270A048E00CE7708 /* Form Identifier WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4CCDD767270A048E00CE7708 /* Form Identifier WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCDD780270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier WatchKit Extension" */;
+			buildPhases = (
+				4CCDD764270A048E00CE7708 /* Sources */,
+				4CCDD765270A048E00CE7708 /* Frameworks */,
+				4CCDD766270A048E00CE7708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Form Identifier WatchKit Extension";
+			packageProductDependencies = (
+				4C3D235E27CFE4F100A3DC73 /* SigmaSwiftStatistics */,
+				4C3D236327CFE5C400A3DC73 /* Algorithms */,
+				4C3D23A727D0016300A3DC73 /* Surge */,
+			);
+			productName = "Form Identifier WatchKit Extension";
+			productReference = 4CCDD768270A048E00CE7708 /* Form Identifier WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCDD747270A048D00CE7708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4CCDD74E270A048D00CE7708 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4CCDD75C270A048E00CE7708 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4CCDD767270A048E00CE7708 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 4CCDD74A270A048D00CE7708 /* Build configuration list for PBXProject "Form Identifier" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCDD746270A048D00CE7708;
+			packageReferences = (
+				4C563BC6277E03790036F3D3 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				4C563BC9277E03A90036F3D3 /* XCRemoteSwiftPackageReference "Charts" */,
+				4C3D235B27CFE40B00A3DC73 /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */,
+				4C3D23A427D0015400A3DC73 /* XCRemoteSwiftPackageReference "Surge" */,
+			);
+			productRefGroup = 4CCDD750270A048D00CE7708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCDD74E270A048D00CE7708 /* Form Identifier */,
+				4CCDD75C270A048E00CE7708 /* Form Identifier WatchKit App */,
+				4CCDD767270A048E00CE7708 /* Form Identifier WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCDD74D270A048D00CE7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D23A327CFF61300A3DC73 /* ShoulderPress-LegMomentum-2.csv in Resources */,
+				4C3D239A27CFF61300A3DC73 /* ShoulderPress-LegMomentum-1.csv in Resources */,
+				4CE0AED827A9748D0002581E /* BicepCurl-Good-6.csv in Resources */,
+				4C0760A827CBC9B300338372 /* LateralRaise-BadRange-9.csv in Resources */,
+				4C484A9527B528C6003F6063 /* LateralRaise-TooFast-5.csv in Resources */,
+				4C3D237B27CFF5F400A3DC73 /* ShoulderPress-BadRange-0.csv in Resources */,
+				4CE0AE7E27A9748D0002581E /* BenchPress-TooFast-3.csv in Resources */,
+				4CE0AE7A27A9748D0002581E /* BenchPress-BadRange-8.csv in Resources */,
+				4CE0AEB027A9748D0002581E /* BicepCurl-BadRange-1.csv in Resources */,
+				4CE0AE9027A9748D0002581E /* BenchPress-TooFast-8.csv in Resources */,
+				4C3D238927CFF60000A3DC73 /* ShoulderPress-Good-8.csv in Resources */,
+				4CE0AE8027A9748D0002581E /* BenchPress-TooFast-2.csv in Resources */,
+				4CE0AECC27A9748D0002581E /* BicepCurl-Good-9.csv in Resources */,
+				4C484A9727B528C6003F6063 /* LateralRaise-TooFast-6.csv in Resources */,
+				4C484AA627B528C6003F6063 /* LateralRaise-Good-9.csv in Resources */,
+				4C3D237327CFF5F400A3DC73 /* ShoulderPress-BadRange-6.csv in Resources */,
+				4C484A9C27B528C6003F6063 /* LateralRaise-TooFast-8.csv in Resources */,
+				4CE0AEC227A9748D0002581E /* BicepCurl-TooFast-7.csv in Resources */,
+				4CE0AE8427A9748D0002581E /* BenchPress-TooFast-1.csv in Resources */,
+				4C484AA527B528C6003F6063 /* LateralRaise-Good-2.csv in Resources */,
+				4C0760B427CBC9B300338372 /* LateralRaise-BadRange-3.csv in Resources */,
+				4C484AA127B528C6003F6063 /* LateralRaise-Good-4.csv in Resources */,
+				4C484AA327B528C6003F6063 /* LateralRaise-Good-1.csv in Resources */,
+				4CE0AECE27A9748D0002581E /* BicepCurl-Good-1.csv in Resources */,
+				4C3D239D27CFF61300A3DC73 /* ShoulderPress-LegMomentum-3.csv in Resources */,
+				4CE0AEB827A9748D0002581E /* BicepCurl-TooFast-3.csv in Resources */,
+				4CE0AE5A27A9748D0002581E /* Other-Still-3.csv in Resources */,
+				4C0760AA27CBC9B300338372 /* LateralRaise-BadRange-4.csv in Resources */,
+				4C0760B627CBC9B300338372 /* LateralRaise-BadRange-1.csv in Resources */,
+				4C032B7B27997ABF00AD43CC /* Assets.xcassets in Resources */,
+				4CE0AEB227A9748D0002581E /* BicepCurl-BadRange-3.csv in Resources */,
+				4C200B3C27AD904300D7448F /* BicepCurl-Test-Good-0.csv in Resources */,
+				4CE0AE8E27A9748D0002581E /* BenchPress-TooFast-9.csv in Resources */,
+				4CE0AE8A27A9748D0002581E /* BenchPress-TooFast-6.csv in Resources */,
+				4CE0AE2C27A9748D0002581E /* Squat-BadRange-1.csv in Resources */,
+				4C3D239F27CFF61300A3DC73 /* ShoulderPress-LegMomentum-0.csv in Resources */,
+				4CE0AE3827A9748D0002581E /* Squat-Good-0.csv in Resources */,
+				4CE0AE7627A9748D0002581E /* BenchPress-BadRange-7.csv in Resources */,
+				4C3D237627CFF5F400A3DC73 /* ShoulderPress-BadRange-1.csv in Resources */,
+				4C484AA227B528C6003F6063 /* LateralRaise-Good-0.csv in Resources */,
+				4CE0AE6627A9748D0002581E /* Other-Still-6.csv in Resources */,
+				4C3D238D27CFF60000A3DC73 /* ShoulderPress-Good-9.csv in Resources */,
+				4CE0AEA827A9748D0002581E /* BicepCurl-BadRange-7.csv in Resources */,
+				4CE0AE7427A9748D0002581E /* BenchPress-BadRange-5.csv in Resources */,
+				4C3D237727CFF5F400A3DC73 /* ShoulderPress-BadRange-2.csv in Resources */,
+				4C484AA027B528C6003F6063 /* LateralRaise-Good-5.csv in Resources */,
+				4C3D238E27CFF60000A3DC73 /* ShoulderPress-Good-3.csv in Resources */,
+				4C0760B827CBC9B300338372 /* LateralRaise-BadRange-0.csv in Resources */,
+				4C0760B027CBC9B300338372 /* LateralRaise-BadRange-6.csv in Resources */,
+				4CE0AEA427A9748D0002581E /* BicepCurl-BadRange-8.csv in Resources */,
+				4C3D237427CFF5F400A3DC73 /* ShoulderPress-BadRange-7.csv in Resources */,
+				4CE0AE4027A9748D0002581E /* Other-Moving-1.csv in Resources */,
+				4CE0AED627A9748D0002581E /* BicepCurl-Good-7.csv in Resources */,
+				4CE0AE8827A9748D0002581E /* BenchPress-TooFast-4.csv in Resources */,
+				4CE0AE8627A9748D0002581E /* BenchPress-TooFast-5.csv in Resources */,
+				4C0760AC27CBC9B300338372 /* LateralRaise-BadRange-5.csv in Resources */,
+				4C3D239B27CFF61300A3DC73 /* ShoulderPress-LegMomentum-5.csv in Resources */,
+				4C3D238727CFF60000A3DC73 /* ShoulderPress-Good-1.csv in Resources */,
+				4CE0AE7027A9748D0002581E /* BenchPress-BadRange-0.csv in Resources */,
+				4C3D238827CFF60000A3DC73 /* ShoulderPress-Good-7.csv in Resources */,
+				4CE0AEB427A9748D0002581E /* BicepCurl-BadRange-2.csv in Resources */,
+				4C3D238C27CFF60000A3DC73 /* ShoulderPress-Good-6.csv in Resources */,
+				4C3D237527CFF5F400A3DC73 /* ShoulderPress-BadRange-9.csv in Resources */,
+				4CE0AE5E27A9748D0002581E /* Other-Still-0.csv in Resources */,
+				4C484A9427B528C6003F6063 /* LateralRaise-TooFast-4.csv in Resources */,
+				4CE0AEA627A9748D0002581E /* BicepCurl-BadRange-6.csv in Resources */,
+				4CE0AE3C27A9748D0002581E /* Other-Moving-2.csv in Resources */,
+				4C484AA727B528C6003F6063 /* LateralRaise-Good-8.csv in Resources */,
+				4CE0AEAE27A9748D0002581E /* BicepCurl-BadRange-0.csv in Resources */,
+				4C0760A627CBC9B300338372 /* LateralRaise-BadRange-8.csv in Resources */,
+				4CE0AEDA27A9748D0002581E /* BicepCurl-Good-4.csv in Resources */,
+				4CE0AE5627A9748D0002581E /* Other-Still-9.csv in Resources */,
+				4CE0AE3E27A9748D0002581E /* Other-Moving-0.csv in Resources */,
+				4CE0AE8C27A9748D0002581E /* BenchPress-TooFast-7.csv in Resources */,
+				4CE0AEC427A9748D0002581E /* BicepCurl-TooFast-6.csv in Resources */,
+				4C484A9927B528C6003F6063 /* LateralRaise-TooFast-3.csv in Resources */,
+				4CE0AE5827A9748D0002581E /* Other-Still-8.csv in Resources */,
+				4CE0AE3A27A9748D0002581E /* Other-Moving-3.csv in Resources */,
+				4C200B3A27AD904300D7448F /* BicepCurl-Test-RealWorld-0.csv in Resources */,
+				4C3D23A227CFF61300A3DC73 /* ShoulderPress-LegMomentum-7.csv in Resources */,
+				4CE0AE6027A9748D0002581E /* Other-Still-1.csv in Resources */,
+				4CE0AE7827A9748D0002581E /* BenchPress-BadRange-6.csv in Resources */,
+				4C200B3827AD904300D7448F /* BicepCurl-Test-Other-0.csv in Resources */,
+				4C0760AE27CBC9B300338372 /* LateralRaise-BadRange-7.csv in Resources */,
+				4C3D237827CFF5F400A3DC73 /* ShoulderPress-BadRange-3.csv in Resources */,
+				4C3D238A27CFF60000A3DC73 /* ShoulderPress-Good-2.csv in Resources */,
+				4C3D23A027CFF61300A3DC73 /* ShoulderPress-LegMomentum-8.csv in Resources */,
+				4C484A9B27B528C6003F6063 /* LateralRaise-TooFast-0.csv in Resources */,
+				4CE0AED027A9748D0002581E /* BicepCurl-Good-0.csv in Resources */,
+				4C484A9627B528C6003F6063 /* LateralRaise-TooFast-7.csv in Resources */,
+				4CE0AE8227A9748D0002581E /* BenchPress-TooFast-0.csv in Resources */,
+				4C484A9F27B528C6003F6063 /* LateralRaise-Good-7.csv in Resources */,
+				4CE0AEAC27A9748D0002581E /* BicepCurl-BadRange-4.csv in Resources */,
+				4CE0AEC627A9748D0002581E /* BicepCurl-TooFast-8.csv in Resources */,
+				4C484A9827B528C6003F6063 /* LateralRaise-TooFast-2.csv in Resources */,
+				4CE0AE3027A9748D0002581E /* Squat-BadRange-2.csv in Resources */,
+				4CE0AEDC27A9748D0002581E /* BicepCurl-Good-5.csv in Resources */,
+				4CE0AEA227A9748D0002581E /* BicepCurl-BadRange-9.csv in Resources */,
+				4C3D237227CFF5F400A3DC73 /* ShoulderPress-BadRange-5.csv in Resources */,
+				4C3D23A127CFF61300A3DC73 /* ShoulderPress-LegMomentum-9.csv in Resources */,
+				4CE0AE6827A9748D0002581E /* Other-Still-7.csv in Resources */,
+				4CE0AE6427A9748D0002581E /* Other-Still-4.csv in Resources */,
+				4CE0AEAA27A9748D0002581E /* BicepCurl-BadRange-5.csv in Resources */,
+				4CE0AEBC27A9748D0002581E /* BicepCurl-TooFast-0.csv in Resources */,
+				4C0760B227CBC9B300338372 /* LateralRaise-BadRange-2.csv in Resources */,
+				4CE0AECA27A9748D0002581E /* BicepCurl-Good-8.csv in Resources */,
+				4CE0AE3227A9748D0002581E /* Squat-TooFast-2.csv in Resources */,
+				4C484A9E27B528C6003F6063 /* LateralRaise-Good-6.csv in Resources */,
+				4CE0AE7C27A9748D0002581E /* BenchPress-BadRange-9.csv in Resources */,
+				4C484A9D27B528C6003F6063 /* LateralRaise-TooFast-9.csv in Resources */,
+				4C3D239E27CFF61300A3DC73 /* ShoulderPress-LegMomentum-6.csv in Resources */,
+				4C3D238627CFF60000A3DC73 /* ShoulderPress-Good-5.csv in Resources */,
+				4CE0AE3427A9748D0002581E /* Squat-TooFast-0.csv in Resources */,
+				4CE0AE6A27A9748D0002581E /* BenchPress-BadRange-2.csv in Resources */,
+				4CE0AE7227A9748D0002581E /* BenchPress-BadRange-4.csv in Resources */,
+				4CE0AEC027A9748D0002581E /* BicepCurl-TooFast-5.csv in Resources */,
+				4CE0AED227A9748D0002581E /* BicepCurl-Good-2.csv in Resources */,
+				4CE0AEBA27A9748D0002581E /* BicepCurl-TooFast-1.csv in Resources */,
+				4C3D237A27CFF5F400A3DC73 /* ShoulderPress-BadRange-4.csv in Resources */,
+				4CE0AE2E27A9748D0002581E /* Squat-BadRange-0.csv in Resources */,
+				4C200B3927AD904300D7448F /* BicepCurl-Test-BadRange-0.csv in Resources */,
+				4CE0AE6E27A9748D0002581E /* BenchPress-BadRange-1.csv in Resources */,
+				4C484A9A27B528C6003F6063 /* LateralRaise-TooFast-1.csv in Resources */,
+				4CE0AEBE27A9748D0002581E /* BicepCurl-TooFast-4.csv in Resources */,
+				4C3D238B27CFF60000A3DC73 /* ShoulderPress-Good-0.csv in Resources */,
+				4CE0AED427A9748D0002581E /* BicepCurl-Good-3.csv in Resources */,
+				4C3D239C27CFF61300A3DC73 /* ShoulderPress-LegMomentum-4.csv in Resources */,
+				4C484AA427B528C6003F6063 /* LateralRaise-Good-3.csv in Resources */,
+				4C3D237927CFF5F400A3DC73 /* ShoulderPress-BadRange-8.csv in Resources */,
+				4CE0AE3627A9748D0002581E /* Squat-TooFast-1.csv in Resources */,
+				4CE0AE6227A9748D0002581E /* Other-Still-5.csv in Resources */,
+				4CE0AEB627A9748D0002581E /* BicepCurl-TooFast-2.csv in Resources */,
+				4CE0AEC827A9748D0002581E /* BicepCurl-TooFast-9.csv in Resources */,
+				4C3D238F27CFF60000A3DC73 /* ShoulderPress-Good-4.csv in Resources */,
+				4CE0AE6C27A9748D0002581E /* BenchPress-BadRange-3.csv in Resources */,
+				4CE0AE5C27A9748D0002581E /* Other-Still-2.csv in Resources */,
+				4C200B3B27AD904300D7448F /* BicepCurl-Test-TooFast-0.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD75B270A048E00CE7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1089F62789CB890084E998 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD766270A048E00CE7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDD778270A048F00CE7708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCDD74B270A048D00CE7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3D23AA27D0081300A3DC73 /* CalcStatisticFeatures.swift in Sources */,
+				4CAC4CB02768E177002076A7 /* SessionDelegator.swift in Sources */,
+				4CC0BBC627A6FEF900A95843 /* PredictionDistribution.swift in Sources */,
+				4C356BB727D20AB600D59C8D /* LateralRaise.mlmodel in Sources */,
+				4C46CBF3279707310034094C /* LiveMotion.swift in Sources */,
+				4C46CBF8279708B10034094C /* CSVList.swift in Sources */,
+				4C356BBA27D20ACB00D59C8D /* ShoulderPress.mlmodel in Sources */,
+				4CAC4CBC2768E428002076A7 /* ContentView.swift in Sources */,
+				4C001FC127AABF7C00843EA6 /* IsTurningPoint.swift in Sources */,
+				4C356BB427D20AA200D59C8D /* BicepCurl.mlmodel in Sources */,
+				4CD8DE0927ABE2FD00CEB27C /* AvgRepTime.swift in Sources */,
+				4C2D262527A044EF001BFE49 /* Metrics.swift in Sources */,
+				4C2D262327A0206A001BFE49 /* LineGraph.swift in Sources */,
+				4CB4AEF627CA65D100FFF2E7 /* SelectRepCountingAxis.swift in Sources */,
+				4C6CDCD327A1A968005A5884 /* ReadMotionData.swift in Sources */,
+				4C001FC427AACDED00843EA6 /* MotionTypeLegend.swift in Sources */,
+				4C001FC727AACEE600843EA6 /* WindowResultRow.swift in Sources */,
+				4CB9ADD427AB15A700CAE9E4 /* Simulate.swift in Sources */,
+				4C001FBF27AABA8600843EA6 /* DisplayMetric.swift in Sources */,
+				4C6CDCD127A1A939005A5884 /* GetRangeOfMotions.swift in Sources */,
+				4CCDD753270A048D00CE7708 /* Form_IdentifierApp.swift in Sources */,
+				4CB9ADC527AB0EF800CAE9E4 /* MakePrediction.swift in Sources */,
+				4CAA2D1127AEB2C500E40F30 /* ProcessBuffer.swift in Sources */,
+				4C71C17927AC615B0077113B /* BicepCurlFeatureExtraction.swift in Sources */,
+				4CD8DE1327AC10BA00CEB27C /* Settings.swift in Sources */,
+				4CD8DE1027AC07D500CEB27C /* RepInformation.swift in Sources */,
+				4CA8675727DBB8D10068C2D3 /* Exercise.mlmodel in Sources */,
+				4CE36E202795C408001C741E /* RepFinder.swift in Sources */,
+				4C46CBED2797027D0034094C /* ExerciseList.swift in Sources */,
+				4C75277B27C0F65300A36E02 /* GetRangeOfMotion.swift in Sources */,
+				4C6CDCC827A1A851005A5884 /* ReadCSV.swift in Sources */,
+				4CE0AEE527A9ADE40002581E /* GetRollAngle.swift in Sources */,
+				4C46CBFD27970AAC0034094C /* SimulateMotion.swift in Sources */,
+				4C69754127985448007FA1A7 /* MotionStruct.swift in Sources */,
+				4C6CDCCB27A1A8B7005A5884 /* CreateBuffers.swift in Sources */,
+				4CE0AEE227A99B250002581E /* RadToDeg.swift in Sources */,
+				4CE36E892795F294001C741E /* ModelManager.swift in Sources */,
+				4C71C17827AC61520077113B /* BicepCurlFeatures.swift in Sources */,
+				4C6CDCD727A1B865005A5884 /* MovingAverage.swift in Sources */,
+				4CE0AEDF27A986D00002581E /* AverageDeviation.swift in Sources */,
+				4CD8DE0B27ABE42A00CEB27C /* AvgRangeOfMotion.swift in Sources */,
+				4CA8674D27DBB3A50068C2D3 /* StatisticFeatures.swift in Sources */,
+				4CD8DE0E27AC075E00CEB27C /* FileInformation.swift in Sources */,
+				4C35B81727CFD3F9007BCE8F /* CountPeaks.swift in Sources */,
+				4CB9ADC327AAE09500CAE9E4 /* RepResultRow.swift in Sources */,
+				4CAA2D1827AEB51800E40F30 /* MotionManager.swift in Sources */,
+				4C46CBEF279706670034094C /* MotionTypeList.swift in Sources */,
+				4C484AAA27B5299C003F6063 /* LateralRaiseFeatureExtraction.swift in Sources */,
+				4CAC4CB32768E1DA002076A7 /* SharedData.swift in Sources */,
+				4CA8675127DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift in Sources */,
+				4C2D262927A089B0001BFE49 /* Graphs.swift in Sources */,
+				4CC0BBC327A6F2D000A95843 /* CollectionExistCheck.swift in Sources */,
+				4C484AAD27B529E2003F6063 /* LateralRaiseFeatures.swift in Sources */,
+				4CC0BBC827A7000B00A95843 /* FindFiles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCDD764270A048E00CE7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71C17127AC5C9D0077113B /* BicepCurlFeatureExtraction.swift in Sources */,
+				4CE36E872795C6EC001C741E /* RepFinder.swift in Sources */,
+				4CB9ADCF27AB123F00CAE9E4 /* ReadCSV.swift in Sources */,
+				4C001FC227AAC18800843EA6 /* IsTurningPoint.swift in Sources */,
+				4CAA2D1C27AED3B700E40F30 /* ResetButton.swift in Sources */,
+				4C71C17327AC5CEC0077113B /* BicepCurlFeatures.swift in Sources */,
+				4C8D697E2768A28C007F1E05 /* NumbersTimelineSchedule.swift in Sources */,
+				4C356BB527D20AA200D59C8D /* BicepCurl.mlmodel in Sources */,
+				4CE0AEE327A99B250002581E /* RadToDeg.swift in Sources */,
+				4C75277C27C0F65300A36E02 /* GetRangeOfMotion.swift in Sources */,
+				4CB9ADCB27AB11D100CAE9E4 /* ReadMotionData.swift in Sources */,
+				4CCDD770270A048E00CE7708 /* ContentView.swift in Sources */,
+				4CB9ADCC27AB11D100CAE9E4 /* CreateBuffers.swift in Sources */,
+				4C484AAE27B529E2003F6063 /* LateralRaiseFeatures.swift in Sources */,
+				4C320B4F27A580FC00AEF9FA /* MotionStruct.swift in Sources */,
+				4CB4AEF727CA65D100FFF2E7 /* SelectRepCountingAxis.swift in Sources */,
+				4C356BBB27D20ACB00D59C8D /* ShoulderPress.mlmodel in Sources */,
+				4C356BB827D20AB600D59C8D /* LateralRaise.mlmodel in Sources */,
+				4CA8674E27DBB3A50068C2D3 /* StatisticFeatures.swift in Sources */,
+				4CB9ADC627AB0EF800CAE9E4 /* MakePrediction.swift in Sources */,
+				4CA8675827DBB8D10068C2D3 /* Exercise.mlmodel in Sources */,
+				4CB9ADCD27AB11D100CAE9E4 /* GetRangeOfMotions.swift in Sources */,
+				4CAA2D1A27AECDB000E40F30 /* ProcessBuffer.swift in Sources */,
+				4C563BC3277E03190036F3D3 /* MotionManager.swift in Sources */,
+				4C8D69812768A55E007F1E05 /* WorkoutManager.swift in Sources */,
+				4CE36E8A2795F294001C741E /* ModelManager.swift in Sources */,
+				4CCDD76E270A048E00CE7708 /* Form_IdentifierApp.swift in Sources */,
+				4C6CDCD827A1B9C0005A5884 /* MovingAverage.swift in Sources */,
+				4CA8675227DBB53F0068C2D3 /* StatisticalFeatureExtraction.swift in Sources */,
+				4C3D23AB27D0081300A3DC73 /* CalcStatisticFeatures.swift in Sources */,
+				4CD951F92768B28300A93C63 /* StartStopButton.swift in Sources */,
+				4CAC4CB42768E1DA002076A7 /* SharedData.swift in Sources */,
+				4CC0BBC427A6F2D000A95843 /* CollectionExistCheck.swift in Sources */,
+				4CAC4CB12768E177002076A7 /* SessionDelegator.swift in Sources */,
+				4C71C17A27AC6D810077113B /* DisplayMetric.swift in Sources */,
+				4C35B81827CFD3F9007BCE8F /* CountPeaks.swift in Sources */,
+				4CE0AEE027A986D00002581E /* AverageDeviation.swift in Sources */,
+				4CB9ADCE27AB11D100CAE9E4 /* GetRollAngle.swift in Sources */,
+				4C484AAB27B5299C003F6063 /* LateralRaiseFeatureExtraction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCDD760270A048E00CE7708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCDD75C270A048E00CE7708 /* Form Identifier WatchKit App */;
+			targetProxy = 4CCDD75F270A048E00CE7708 /* PBXContainerItemProxy */;
+		};
+		4CCDD76B270A048E00CE7708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCDD767270A048E00CE7708 /* Form Identifier WatchKit Extension */;
+			targetProxy = 4CCDD76A270A048E00CE7708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CCDD77E270A048F00CE7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCDD77F270A048F00CE7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4CCDD781270A048F00CE7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Form Identifier WatchKit Extension/Form Identifier WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ES3V44N259;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Form Identifier WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Form Identifier WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Form_Identifier_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This is a test for development. Test test test test";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This is a test for development. Test test test test";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		4CCDD782270A048F00CE7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Form Identifier WatchKit Extension/Form Identifier WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ES3V44N259;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Form Identifier WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Form Identifier WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Form_Identifier_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This is a test for development. Test test test test";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This is a test for development. Test test test test";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		4CCDD785270A048F00CE7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ES3V44N259;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Form_Identifier_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Form Identifier WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Will0912.Form-Identifier";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		4CCDD786270A048F00CE7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ES3V44N259;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Form_Identifier_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Form Identifier WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Will0912.Form-Identifier";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		4CCDD789270A048F00CE7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ES3V44N259;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCDD78A270A048F00CE7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ES3V44N259;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Will0912.Form-Identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCDD74A270A048D00CE7708 /* Build configuration list for PBXProject "Form Identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDD77E270A048F00CE7708 /* Debug */,
+				4CCDD77F270A048F00CE7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCDD780270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDD781270A048F00CE7708 /* Debug */,
+				4CCDD782270A048F00CE7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCDD784270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDD785270A048F00CE7708 /* Debug */,
+				4CCDD786270A048F00CE7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCDD788270A048F00CE7708 /* Build configuration list for PBXNativeTarget "Form Identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCDD789270A048F00CE7708 /* Debug */,
+				4CCDD78A270A048F00CE7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C3D235B27CFE40B00A3DC73 /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/SigmaSwiftStatistics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		4C3D23A427D0015400A3DC73 /* XCRemoteSwiftPackageReference "Surge" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jounce/Surge";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		4C563BC6277E03790036F3D3 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4C563BC9277E03A90036F3D3 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C3D235C27CFE40B00A3DC73 /* SigmaSwiftStatistics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3D235B27CFE40B00A3DC73 /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */;
+			productName = SigmaSwiftStatistics;
+		};
+		4C3D235E27CFE4F100A3DC73 /* SigmaSwiftStatistics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3D235B27CFE40B00A3DC73 /* XCRemoteSwiftPackageReference "SigmaSwiftStatistics" */;
+			productName = SigmaSwiftStatistics;
+		};
+		4C3D236327CFE5C400A3DC73 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C563BC6277E03790036F3D3 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		4C3D23A527D0015400A3DC73 /* Surge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3D23A427D0015400A3DC73 /* XCRemoteSwiftPackageReference "Surge" */;
+			productName = Surge;
+		};
+		4C3D23A727D0016300A3DC73 /* Surge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3D23A427D0015400A3DC73 /* XCRemoteSwiftPackageReference "Surge" */;
+			productName = Surge;
+		};
+		4C563BC7277E03790036F3D3 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C563BC6277E03790036F3D3 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		4C563BCA277E03A90036F3D3 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C563BC9277E03A90036F3D3 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4CCDD747270A048D00CE7708 /* Project object */;
+}
