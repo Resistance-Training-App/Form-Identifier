@@ -1,4 +1,4 @@
-# Form-Identifier
+# Testing of exercise analysis features
 
 This repository is used to test exercise analysis features before being implemented into the main repository 'Workout Planner'. These features can then be tested in isolation and not interfere with the development of the main app.
 
